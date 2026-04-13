@@ -1,0 +1,15 @@
+Transformer 升级测试 v1 — 第二轮b：seq=10 + 温和训练策略
+============================================================
+测试日期: 2026-04-13
+设备: cuda
+
+本轮改动（相比4.13v1基线）：
+  seq_len        6   -> 10
+  learning_rate  1e-3 -> 0.0005
+  weight_decay   1e-6 -> 1e-05
+  grad_clip_norm  无  -> 1.0
+  epochs         1200 -> 1800
+  dropout         0.0 (不变)
+
+模型架构（未改动）：
+  d_model=32, nhead=4, 2层encoder, dim_feedforward=64, gelu

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+remote_name="$1"
+remote_url="$2"
+
+while read local_ref local_sha remote_ref remote_sha
+do
+    case "$remote_ref" in
+        refs/heads/main|refs/heads/master)
+            echo "Blocked push to protected branch: $remote_ref" 1>&2
+            echo "Use the backup upload script to push a timestamped backup branch instead." 1>&2
+            echo "Remote: $remote_name ($remote_url)" 1>&2
+            exit 1
+            ;;
+    esac
+done
+
+exit 0

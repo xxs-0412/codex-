@@ -1,0 +1,2 @@
+﻿model,mean_pressure_mae,mean_pressure_rmse,mean_pressure_mape,mean_wear_mae_um,mean_life_abs_error,median_life_abs_error,mean_life_rel_error,max_life_abs_error,min_life_abs_error
+Transformer_R3,26.909755778312682,33.237063431739806,0.31099480427801607,0.33664064391967213,16319.26335174585,5513.946764579403,0.23387711730582178,52371.54927769756,2487.4923477689263
