@@ -1,0 +1,14 @@
+运行说明
+============================================================
+Data source: C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\Bearing training\提取结果_处理后
+Eligible runs: 17
+Upgrade chain: round1, round1b, round2, round2b, round3, round3b, round4
+
+CUDA:
+  Device: cuda
+  Torch version: 2.7.0+cu128
+  CUDA available: True
+  CUDA device index: 0
+  CUDA device name: NVIDIA GeForce RTX 5070 Ti
+  CUDA capability: 12.0
+  CUDA total memory (GB): 15.92

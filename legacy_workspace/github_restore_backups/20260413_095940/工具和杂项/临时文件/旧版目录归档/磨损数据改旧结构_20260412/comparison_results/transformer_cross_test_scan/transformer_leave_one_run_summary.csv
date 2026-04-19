@@ -1,0 +1,2 @@
+﻿model,eligible_test_case_count,mean_pressure_mae,mean_wear_mae_um,mean_life_abs_error,median_life_abs_error,mean_life_rel_error
+Transformer,10,25.66446957588196,0.36819516157057636,18414.16268739446,5526.199116409114,0.24398206059071814

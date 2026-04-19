@@ -1,0 +1,8 @@
+修改后磨损数据处理完成。
+原始数据目录: C:\Users\28382\Desktop\毕业设计\Bearing training\磨损数据
+修改数据目录: C:\Users\28382\Desktop\毕业设计\Bearing training\磨损数据（改）
+real_wear_coeff_mpa_inv=1.840000000000e-10
+default_elastic_modulus_GPa=210.0000
+wear_threshold_um=5.0000
+test_case_name=试验11
+处理工况数量: 13

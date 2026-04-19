@@ -18,6 +18,7 @@ if not defined APP_DIR (
 )
 
 for %%P in (
+    "E:\AI\cuda_env\python.exe"
     "C:\Users\28382\Miniconda3\envs\torch_env\python.exe"
     "D:\anaconda3\envs\torch_env\python.exe"
     "C:\anaconda3\envs\torch_env\python.exe"

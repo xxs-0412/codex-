@@ -1,0 +1,2 @@
+﻿model,training_case_count,training_sample_count,pressure_mae,pressure_rmse,pressure_mape,recommended_cycle_step,training_wear_limit_um
+Transformer,13,1533,0.4117445945739746,0.6636031270027161,0.003961206879466772,652.0,9.397310000000001

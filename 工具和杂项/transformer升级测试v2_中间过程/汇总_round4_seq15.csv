@@ -1,0 +1,2 @@
+﻿round_id,description,seq_len,d_model,num_layers,dim_ff,dropout,epochs,learning_rate,weight_decay,grad_clip_norm,use_validation,mean_pressure_mae,mean_pressure_rmse,mean_pressure_mape,mean_wear_mae_um,mean_life_abs_error,median_life_abs_error,mean_life_rel_error,max_life_abs_error,min_life_abs_error,mean_actual_epochs
+round4_seq15,seq_len=15 final combo,15,64,2,128,0.0,1200,0.001,1e-06,,False,40.33564414697535,42.62411945006426,0.3968719141009976,0.4533863974879526,15511.339972785003,6742.0923211463305,0.3250898215612349,59929.75691098705,1416.0445150191808,1200.0

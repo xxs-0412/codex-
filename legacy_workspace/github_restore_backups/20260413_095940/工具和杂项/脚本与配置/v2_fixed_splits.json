@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "threshold_um": 5.0,
+  "measured_runs": [
+    "试验7.csv",
+    "试验12.csv",
+    "试验11.csv",
+    "试验6.csv",
+    "试验4.csv",
+    "试验8.csv",
+    "试验5.csv",
+    "试验9.csv",
+    "试验10.csv",
+    "试验14.csv",
+    "试验3.csv",
+    "试验13.csv",
+    "试验1.csv"
+  ],
+  "eligible_life_runs": [
+    "试验1.csv",
+    "试验11.csv",
+    "试验12.csv",
+    "试验13.csv",
+    "试验14.csv",
+    "试验3.csv",
+    "试验4.csv",
+    "试验6.csv",
+    "试验7.csv",
+    "试验8.csv"
+  ],
+  "folds": [
+    {
+      "test_run": "试验7.csv",
+      "test_source_file": "试验7.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验9.csv",
+      "train_runs": [
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验5.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验12.csv",
+      "test_source_file": "试验12.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验9.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验5.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验11.csv",
+      "test_source_file": "试验11.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验9.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验5.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验6.csv",
+      "test_source_file": "试验6.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验9.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验5.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验4.csv",
+      "test_source_file": "试验4.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验9.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验8.csv",
+        "试验5.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验8.csv",
+      "test_source_file": "试验8.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验9.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验5.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验5.csv",
+      "test_source_file": "试验5.xlsx",
+      "eligible_for_life": false,
+      "val_run": "试验9.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验9.csv",
+      "test_source_file": "试验9.xlsx",
+      "eligible_for_life": false,
+      "val_run": "试验5.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验10.csv",
+      "test_source_file": "试验10.xlsx",
+      "eligible_for_life": false,
+      "val_run": "试验5.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验9.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验14.csv",
+      "test_source_file": "试验14.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验5.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验9.csv",
+        "试验10.csv",
+        "试验3.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验3.csv",
+      "test_source_file": "试验3.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验5.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验9.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验13.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验13.csv",
+      "test_source_file": "试验13.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验5.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验9.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验1.csv"
+      ]
+    },
+    {
+      "test_run": "试验1.csv",
+      "test_source_file": "试验1.xlsx",
+      "eligible_for_life": true,
+      "val_run": "试验5.csv",
+      "train_runs": [
+        "试验7.csv",
+        "试验12.csv",
+        "试验11.csv",
+        "试验6.csv",
+        "试验4.csv",
+        "试验8.csv",
+        "试验9.csv",
+        "试验10.csv",
+        "试验14.csv",
+        "试验3.csv",
+        "试验13.csv"
+      ]
+    }
+  ]
+}

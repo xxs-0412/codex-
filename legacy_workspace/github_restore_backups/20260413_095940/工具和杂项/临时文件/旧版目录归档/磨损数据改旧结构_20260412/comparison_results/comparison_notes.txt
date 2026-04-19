@@ -1,0 +1,9 @@
+Test case: Run11.xlsx
+Threshold: 5.0000 um
+Curve figure includes three lines:
+1. FE / processed truth
+2. Recursive StressNet rollout
+3. Static FNN equivalent linear reference
+
+Static FNN baseline predicts only terminal life from [F, D, Cr].
+Its wear curve is shown as a straight reference line to emphasize that it does not model wear evolution explicitly.

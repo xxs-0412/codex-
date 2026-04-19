@@ -1,0 +1,2 @@
+C:\Users\28382\Miniconda3\envs\torch_env\Lib\site-packages\torch\optim\adamw.py:419: UserWarning: The operator 'aten::lerp.Scalar_out' is not currently supported on the DML backend and will fall back to run on the CPU. This may have performance implications. (Triggered internally at C:\__w\1\s\pytorch-directml-plugin\torch_directml\csrc\dml\dml_cpu_fallback.cpp:17.)
+  exp_avg.lerp_(grad, 1 - beta1)

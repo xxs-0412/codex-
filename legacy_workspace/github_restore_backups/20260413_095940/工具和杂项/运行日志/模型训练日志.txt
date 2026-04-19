@@ -1,0 +1,15 @@
+Real wear-model training complete.
+Test case: Run11.xlsx
+Recommended cycle step: 652.00
+Recursive model saved to: D:\Bearing training\磨损数据（改）\trained_model\stressnet_model_real.pt
+Software model synced to: D:\Bearing training\recursive_physics_surrogate\storage\training_validation\stressnet_model.pt
+Comparison results: D:\Bearing training\磨损数据（改）\comparison_results
+
+Pressure fit:
+  train RMSE=1.6450 MPa, MAE=0.5950 MPa, MAPE=0.6896%
+  test  RMSE=9.5509 MPa, MAE=8.8728 MPa, MAPE=8.6807%
+
+Held-out life comparison:
+  FE truth=23918.71 cycles
+  Static FNN=30304.83 cycles | abs error=6386.12
+  Recursive StressNet=24705.03 cycles | abs error=786.33

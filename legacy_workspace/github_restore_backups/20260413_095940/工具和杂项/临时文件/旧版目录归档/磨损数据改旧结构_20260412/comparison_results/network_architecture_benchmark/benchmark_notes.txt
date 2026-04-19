@@ -1,0 +1,6 @@
+Held-out test case: Run11.xlsx
+Threshold: 5.00 um
+Compared models: FNN, GRU, LSTM, 1D-CNN, Transformer.
+All models are trained on the same 11 real cases and evaluated on the same held-out case.
+No synthetic virtual samples were added in this benchmark.
+Pressure MAE, wear-curve MAE, and life absolute error are reported together.

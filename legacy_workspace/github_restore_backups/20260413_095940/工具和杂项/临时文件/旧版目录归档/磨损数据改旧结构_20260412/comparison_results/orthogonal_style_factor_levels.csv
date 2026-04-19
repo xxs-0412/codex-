@@ -1,0 +1,4 @@
+factor,levels,coverage_note
+D,"8, 13, 16, 22","All four size levels exist, but D13 and D16 are under-covered"
+Cr,"0.008, 0.010, 0.020, 0.030/0.040","High-clearance coverage is weak and uneven across D"
+F,"1000, 2150/3000, 4000/4500, 8650/9000","Load values exist, but same D and same Cr load sweeps are still sparse"

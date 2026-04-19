@@ -1,0 +1,3 @@
+model,predicted_life,life_abs_error
+FE_truth,23918.706127369696,0.0
+Static_FNN,44703.78842954798,20785.082302178285

@@ -1,0 +1,5 @@
+Exploratory cross-test-set scan with ['FNN', 'GRU', 'Transformer']
+Training epochs per model: 1200
+Purpose: check whether Transformer still keeps an advantage when the held-out test case changes.
+Only real measured data are used; no synthetic virtual samples are added.
+These results are for internal model selection, not the final presentation figure.

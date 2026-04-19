@@ -1,0 +1,183 @@
+import pandas as pd
+from pathlib import Path
+from zipfile import BadZipFile
+import math
+
+DEFAULT_REAL_WEAR_COEFF_MPA_INV = 1.84e-10
+DEFAULT_ELASTIC_MODULUS_GPA = 210.0
+DEFAULT_WEAR_THRESHOLD_UM = 5.0
+EPS = 1e-12
+
+
+def process_extract_data():
+    base = Path(r"C:\Users\28382\Desktop\毕业设计\Bearing training")
+    src = base / "提取结果"
+    out = base / "提取结果_处理后"
+    out.mkdir(parents=True, exist_ok=True)
+
+    # Get all xlsx files
+    xlsx_files = sorted(src.glob("Run*.xlsx"))
+    print(f"Found {len(xlsx_files)} xlsx files")
+
+    summary_rows = []
+
+    for source_path in xlsx_files:
+        try:
+            raw_df = pd.read_excel(source_path, engine="openpyxl")
+        except (BadZipFile, ValueError):
+            print(f"Skipping invalid file: {source_path.name}")
+            continue
+
+        # Normalize columns
+        columns = [str(c).replace("\ufeff", "").strip() for c in raw_df.columns]
+        raw_df.columns = columns
+
+        # Find columns
+        sim_column = "Step_Time"
+        wear_column = "CWEAR"
+        stress_column = "CPRESS"
+
+        # Get metadata from first row (F, D, Cr only in first row)
+        f_val = raw_df["F"].iloc[0]
+        d_val = raw_df["D"].iloc[0]
+        cr_val = raw_df["Cr"].iloc[0]
+        k_sim = raw_df["磨损系数"].iloc[0]
+
+        sim_values = pd.to_numeric(raw_df[sim_column], errors="coerce").dropna().to_numpy(dtype=float)
+        wear_values = pd.to_numeric(raw_df[wear_column], errors="coerce").dropna().to_numpy(dtype=float)
+        stress_values = pd.to_numeric(raw_df[stress_column], errors="coerce").dropna().to_numpy(dtype=float)
+
+        print(f"  {source_path.name}: {len(sim_values)} rows, F={f_val}, D={d_val}, Cr={cr_val}")
+
+        # Build case table
+        sim_cycle = np.concatenate([[0.0], sim_values])
+        wear_depth_mm = np.concatenate([[0.0], wear_values])
+        stress = np.concatenate([[float(stress_values[0])], stress_values])
+        actual_cycle_float = sim_cycle * k_sim / DEFAULT_REAL_WEAR_COEFF_MPA_INV
+        actual_cycle = strict_round_cycles(actual_cycle_float)
+
+        case_df = pd.DataFrame({
+            "sim_cycle": sim_cycle,
+            "actual_cycle": actual_cycle,
+            "stress": np.clip(stress, EPS, None),
+            "F": f_val,
+            "D": d_val,
+            "Cr": cr_val,
+            "wear_depth": wear_depth_mm,
+            "elastic_modulus_GPa": DEFAULT_ELASTIC_MODULUS_GPA,
+            "k_sim": k_sim,
+            "source_file": source_path.name,
+            "stress_source": "measured_cpress",
+        })
+
+        # Save case file
+        case_path = out / f"{source_path.stem}.csv"
+        case_df.to_csv(case_path, index=False)
+
+        # Estimate life
+        actual_life, life_mode = estimate_threshold_life(
+            actual_cycle_float, wear_depth_mm, DEFAULT_WEAR_THRESHOLD_UM
+        )
+        sim_life = actual_life * DEFAULT_REAL_WEAR_COEFF_MPA_INV / k_sim
+
+        summary_row = {
+            "file_name": f"{source_path.stem}.csv",
+            "source_file": source_path.name,
+            "F": f_val,
+            "D": d_val,
+            "Cr": cr_val,
+            "elastic_modulus_GPa": DEFAULT_ELASTIC_MODULUS_GPA,
+            "k_sim": k_sim,
+            "real_wear_coeff_mpa_inv": DEFAULT_REAL_WEAR_COEFF_MPA_INV,
+            "row_count": int(len(case_df)),
+            "sim_life": sim_life,
+            "actual_life": actual_life,
+            "actual_life_mode": life_mode,
+            "final_sim_cycle": float(sim_cycle[-1]),
+            "final_actual_cycle": float(actual_cycle_float[-1]),
+            "final_wear_depth": float(wear_depth_mm[-1]),
+            "final_wear_um": float(wear_depth_mm[-1] * 1000.0),
+            "stress_start": float(case_df.iloc[0]["stress"]),
+            "stress_end": float(case_df.iloc[-1]["stress"]),
+            "has_measured_pressure": True,
+            "stress_source": "measured_cpress",
+            "wear_threshold_um": DEFAULT_WEAR_THRESHOLD_UM,
+        }
+        summary_rows.append(summary_row)
+
+    # Save summary
+    summary_df = pd.DataFrame(summary_rows).sort_values("source_file").reset_index(drop=True)
+    summary_df.to_csv(out / "修改数据汇总.csv", index=False)
+
+    print(f"\nProcessed {len(summary_rows)} files")
+    print(f"Output: {out}")
+    print(f"\nSummary:")
+    print(summary_df[["source_file", "actual_life", "actual_life_mode", "final_wear_um"]].to_string(index=False))
+
+
+def strict_round_cycles(values):
+    rounded = np.rint(values).astype(np.int64)
+    if len(rounded) == 0:
+        return rounded
+    rounded[0] = 0
+    for idx in range(1, len(rounded)):
+        rounded[idx] = max(int(rounded[idx]), int(rounded[idx - 1]) + 1)
+    return rounded
+
+
+def wear_fit_function(x, a, b, c):
+    return a * x + b * (1.0 - np.exp(-c * x))
+
+
+def estimate_threshold_life(actual_cycle_float, wear_depth_mm, threshold_um):
+    from scipy.optimize import curve_fit
+    target_mm = threshold_um / 1000.0
+    actual = np.asarray(actual_cycle_float, dtype=float)
+    wear = np.asarray(wear_depth_mm, dtype=float)
+
+    if wear[0] > EPS:
+        actual = np.concatenate([[0.0], actual])
+        wear = np.concatenate([[0.0], wear])
+
+    reached_idx = np.where(wear >= target_mm - EPS)[0]
+    if len(reached_idx) > 0:
+        idx = int(reached_idx[0])
+        if idx == 0:
+            return float(actual[0]), "measured"
+        x0, x1 = float(actual[idx - 1]), float(actual[idx])
+        y0, y1 = float(wear[idx - 1]), float(wear[idx])
+        ratio = (target_mm - y0) / max(y1 - y0, EPS)
+        return float(x0 + ratio * (x1 - x0)), "measured"
+
+    try:
+        tail_count = min(len(actual), 12)
+        tail_slope = np.polyfit(actual[-tail_count:], wear[-tail_count:], 1)[0] if tail_count >= 2 else 1e-8
+        p0 = [max(float(tail_slope), 1e-9), max(float(wear[-1] - wear[0]), 1e-6), 1e-5]
+        params, _ = curve_fit(
+            wear_fit_function, actual, wear, p0=p0,
+            bounds=([0.0, 0.0, 0.0], [np.inf, np.inf, np.inf]), maxfev=50000
+        )
+        lo = float(actual[-1])
+        hi = max(lo * 1.5, lo + 1000.0)
+        while wear_fit_function(np.array([hi]), *params)[0] < target_mm:
+            hi *= 1.5
+            if hi > max(lo * 200.0, lo + 5e7):
+                break
+        for _ in range(80):
+            mid = 0.5 * (lo + hi)
+            if wear_fit_function(np.array([mid]), *params)[0] >= target_mm:
+                hi = mid
+            else:
+                lo = mid
+        return float(hi), "fit"
+    except Exception:
+        tail_count = min(len(actual), 12)
+        slope = np.polyfit(actual[-tail_count:], wear[-tail_count:], 1)[0] if tail_count >= 2 else 1e-8
+        slope = max(float(slope), 1e-9)
+        extra_cycle = max(target_mm - float(wear[-1]), 0.0) / slope
+        return float(actual[-1] + extra_cycle), "linear"
+
+
+if __name__ == "__main__":
+    import numpy as np
+    process_extract_data()

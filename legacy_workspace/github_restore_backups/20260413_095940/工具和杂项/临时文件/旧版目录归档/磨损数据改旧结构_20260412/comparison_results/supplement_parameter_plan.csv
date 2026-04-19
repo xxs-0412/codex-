@@ -1,0 +1,13 @@
+plan_id,priority,F,D,Cr,purpose,note
+S01,High,2150.0,13.0,0.02,Fixed D13 F2150 clearance sweep,Match Run9 and isolate Cr effect
+S02,High,2150.0,13.0,0.03,Fixed D13 F2150 clearance sweep,Break current F-Cr coupling
+S03,High,2150.0,13.0,0.04,Fixed D13 F2150 clearance sweep,Add high-clearance end
+S04,High,2150.0,16.0,0.01,Fixed D16 F2150 clearance sweep,Match Run8 and isolate Cr effect
+S05,High,2150.0,16.0,0.02,Fixed D16 F2150 clearance sweep,Break current F-Cr coupling
+S06,Medium,2150.0,16.0,0.04,Fixed D16 F2150 clearance sweep,Current D16 has no Cr 0.04
+S07,High,3000.0,22.0,0.02,Fixed D22 F3000 clearance sweep,Match Run14 and isolate Cr effect
+S08,High,3000.0,22.0,0.03,Fixed D22 F3000 clearance sweep,Break current F-Cr coupling
+S09,High,3000.0,22.0,0.04,Fixed D22 F3000 clearance sweep,Add high-clearance end
+S10,High,4000.0,16.0,0.03,Fixed D16 Cr0.03 load sweep,Build same-clearance load trend with Run8
+S11,Medium,8000.0,16.0,0.03,Fixed D16 Cr0.03 load sweep,Complete high-load side
+S12,High,1000.0,8.0,0.008,Repeat low-size case with CPRESS export,Run3 currently has no direct pressure output

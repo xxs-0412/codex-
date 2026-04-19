@@ -1,0 +1,2 @@
+﻿round_id,description,seq_len,d_model,num_layers,dim_ff,dropout,epochs,learning_rate,weight_decay,grad_clip_norm,use_validation,mean_pressure_mae,mean_pressure_rmse,mean_pressure_mape,mean_wear_mae_um,mean_life_abs_error,median_life_abs_error,mean_life_rel_error,max_life_abs_error,min_life_abs_error,mean_actual_epochs
+round2_seq10,seq_len=10,10,32,2,64,0.0,1200,0.001,1e-06,,False,48.75543395210715,51.43141373466043,0.4897323298980208,0.5628738188147144,19710.26957422956,16833.141472304742,0.4879107783712653,67413.00169212233,461.24016609030514,1200.0

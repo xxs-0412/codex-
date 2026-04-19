@@ -1,0 +1,12 @@
+Transformer leave-one-run scan on measured runs with final wear >= 5.00 um.
+Training epochs per fold: 1500
+
+High-error runs and suspected reasons:
+- Run1.xlsx: |life error|=70668.4 cycles, wear MAE=0.7886 um, pressure MAE=29.058 MPa
+  reason: 测试工况在 F 上超出训练范围；训练集中缺少同尺寸同载荷对照，间隙影响与载荷影响不易分离；最终磨损只略高于 5 微米，阈值寿命对尾段斜率更敏感
+- Run13.xlsx: |life error|=36075.2 cycles, wear MAE=0.5124 um, pressure MAE=5.671 MPa
+  reason: 训练集中没有同尺寸同间隙参照，局部磨损形状更难锁定；训练集中缺少同尺寸同载荷对照，间隙影响与载荷影响不易分离；最终磨损只略高于 5 微米，阈值寿命对尾段斜率更敏感
+- Run14.xlsx: |life error|=30575.9 cycles, wear MAE=0.6386 um, pressure MAE=6.036 MPa
+  reason: 训练集中没有同尺寸同间隙参照，局部磨损形状更难锁定；训练集中缺少同尺寸同载荷对照，间隙影响与载荷影响不易分离
+- Run3.xlsx: |life error|=25770.6 cycles, wear MAE=0.4046 um, pressure MAE=53.389 MPa
+  reason: 训练集中缺少同尺寸同载荷对照，间隙影响与载荷影响不易分离；最终磨损只略高于 5 微米，阈值寿命对尾段斜率更敏感
