@@ -1,0 +1,36 @@
+{
+  "dry_run": true,
+  "test_files": [
+    "Run4.csv",
+    "Run28.csv",
+    "Run25.csv",
+    "Run11.csv"
+  ],
+  "seq_len": 12,
+  "actual_step_cap": 250.0,
+  "wear_coeff": 1.84e-10,
+  "screen_seeds": [
+    20260425,
+    20260426
+  ],
+  "refine_seeds": [
+    20260425,
+    20260426,
+    20260427
+  ],
+  "final_seeds": [
+    20260425,
+    20260426,
+    20260427,
+    20260428,
+    20260429
+  ],
+  "screen_epochs": 800,
+  "refine_epochs": 1200,
+  "final_epochs": 1600,
+  "device": [
+    "Device: cpu",
+    "Torch version: 2.3.1+cpu",
+    "CUDA available: False"
+  ]
+}

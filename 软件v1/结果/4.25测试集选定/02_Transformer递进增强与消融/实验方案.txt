@@ -1,0 +1,8 @@
+实验方案
+========================================================================
+目的: 对 Transformer 默认模型进行两个模块的递进增强和消融验证。
+T0_baseline_5d: 原始5维输入 + 普通训练。
+T1_R1_only: 加入 R1 静态派生特征。
+T2_slow_only_5d: 原始5维输入 + slow_only 趋势约束。
+T3_R1_plus_slow: R1 静态派生 + slow_only 趋势约束。
+说明: Transformer 参数不作为单独创新点；d_model=32, nhead=4, num_layers=2, dim_ff=64, seq_len=12 作为默认参数。

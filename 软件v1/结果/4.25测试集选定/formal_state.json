@@ -1,0 +1,14 @@
+{
+  "status": "formal_results_built",
+  "test_files": [
+    "Run4.csv",
+    "Run28.csv",
+    "Run25.csv",
+    "Run11.csv"
+  ],
+  "seq_len": 12,
+  "epochs": 1600,
+  "actual_step_cap": 250.0,
+  "source": "C:\\Users\\28382\\Desktop\\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\\软件v1\\先前版本_30测试集归档\\结果\\30测试集\\03_测试集筛查\\递进双模块筛查\\Stage3_正式复核明细.csv",
+  "source_note": "正式测试集来自旧版30测试集筛查结果归档；正常分析当前结果时不需要读取归档目录。"
+}

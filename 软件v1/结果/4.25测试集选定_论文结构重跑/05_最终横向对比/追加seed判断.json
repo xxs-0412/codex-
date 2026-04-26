@@ -1,0 +1,8 @@
+{
+  "best_baseline_variant": "LSTM",
+  "enhanced_variant": "T3_module1_plus_module2",
+  "advantage": 285.53243743347025,
+  "pooled_std": 350.2244164328893,
+  "threshold": 175.11220821644466,
+  "needs_10_seed_extension": false
+}

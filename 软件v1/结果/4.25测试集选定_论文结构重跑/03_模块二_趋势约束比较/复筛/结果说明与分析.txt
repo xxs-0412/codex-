@@ -1,0 +1,6 @@
+结果说明与分析
+========================================================================
+排序:
+1. M1_R2_log_cycle_replace__S1_slow_abs_0p01: mean_life_abs_error=469.2, std=219.7, max=1059.7, delta_vs_baseline=-42.2
+2. M1_R2_log_cycle_replace__S1_slow_abs_0p003: mean_life_abs_error=509.5, std=247.3, max=1514.3, delta_vs_baseline=-1.9
+3. M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p003: mean_life_abs_error=511.4, std=236.8, max=1557.3, delta_vs_baseline=0.0

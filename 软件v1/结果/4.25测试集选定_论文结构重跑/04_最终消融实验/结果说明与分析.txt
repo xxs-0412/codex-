@@ -1,0 +1,7 @@
+结果说明与分析
+========================================================================
+排序:
+1. T3_module1_plus_module2: mean_life_abs_error=607.3, std=283.2, max=1411.8, delta_vs_baseline=-687.9
+2. T2_module2_only: mean_life_abs_error=810.0, std=239.9, max=2425.7, delta_vs_baseline=-485.2
+3. T1_module1_only: mean_life_abs_error=988.2, std=164.1, max=2226.3, delta_vs_baseline=-307.1
+4. T0_baseline: mean_life_abs_error=1295.2, std=91.6, max=3742.0, delta_vs_baseline=0.0

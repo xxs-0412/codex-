@@ -1,0 +1,55 @@
+{
+  "seeds": [
+    20260425
+  ],
+  "epochs": 1600,
+  "seq_len": 12,
+  "actual_step_cap": 250.0,
+  "base_wear_coeff": 1.84e-10,
+  "test_files": [
+    "Run4.csv",
+    "Run28.csv",
+    "Run25.csv",
+    "Run11.csv"
+  ],
+  "stage_refs": {
+    "0": 0.9997982165618504,
+    "1": 0.9217519160022051
+  },
+  "dynamic_configs": [
+    {
+      "name": "T4_dynk_s0p75_c0p1_d0p1",
+      "strength": 0.75,
+      "clip_width": 0.1,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    }
+  ],
+  "calibration": {
+    "method": "Ridge on training closed-loop residuals",
+    "strengths": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "clip_widths": [
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "target_factor": "clipped(predicted_life_fixed / true_life_train, 0.70, 1.30)"
+  },
+  "device": [
+    "Device: cuda",
+    "Torch version: 2.7.0+cu128",
+    "CUDA available: True",
+    "CUDA device index: 0",
+    "CUDA device name: NVIDIA GeForce RTX 5070 Ti",
+    "CUDA capability: 12.0",
+    "CUDA total memory (GB): 15.92"
+  ]
+}

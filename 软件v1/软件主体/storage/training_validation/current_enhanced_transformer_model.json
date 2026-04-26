@@ -1,0 +1,42 @@
+{
+  "feature_columns": [
+    "F",
+    "D",
+    "Cr",
+    "F_over_D_sq",
+    "Cr_over_D",
+    "log1p_actual_cycle",
+    "wear_depth"
+  ],
+  "feature_spec_name": "R2_log_cycle",
+  "feature_variant": "M1_R2_log_cycle_replace",
+  "shape_variant": "S1_slow_abs_0p01",
+  "model_name": "Transformer",
+  "model_architecture": "Enhanced Transformer",
+  "transformer_config": {
+    "seq_len": 12,
+    "d_model": 32,
+    "nhead": 4,
+    "num_layers": 2,
+    "dim_ff": 64,
+    "dropout": 0.0,
+    "epochs": 1600,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-06
+  },
+  "sequence_length": 12,
+  "training_case_count": 30,
+  "training_sample_count": 2152,
+  "training_wear_limit_um": 5.11443,
+  "training_actual_life_max": 159673.07611040428,
+  "training_actual_life_mean": 51862.659935498006,
+  "recommended_cycle_step": 250.0,
+  "base_wear_coeff": 1.84e-10,
+  "available_coating": "DLC",
+  "seed": 20260425,
+  "metrics": {
+    "pressure_rmse": 1.3784526586532593,
+    "pressure_mae": 0.8718801736831665,
+    "pressure_mape": 0.009597491472959518
+  }
+}

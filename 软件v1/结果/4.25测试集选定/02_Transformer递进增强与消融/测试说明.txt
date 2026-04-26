@@ -1,0 +1,19 @@
+测试说明
+========================================================================
+测试集: Run4, Run28, Run25, Run11。
+训练集数量: 26；测试集数量: 4。
+epochs=1600; fixed actual_step cap=250。
+CUDA 信息:
+  Device: cuda
+  Torch version: 2.7.0+cu128
+  CUDA available: True
+  CUDA device index: 0
+  CUDA device name: NVIDIA GeForce RTX 5070 Ti
+  CUDA capability: 12.0
+  CUDA total memory (GB): 15.92
+
+消融结果:
+  T0_baseline_5d: life_abs_error=1134.1, delta_vs_T0=0.0
+  T1_R1_only: life_abs_error=948.2, delta_vs_T0=-185.9
+  T2_slow_only_5d: life_abs_error=964.5, delta_vs_T0=-169.5
+  T3_R1_plus_slow: life_abs_error=666.5, delta_vs_T0=-467.5

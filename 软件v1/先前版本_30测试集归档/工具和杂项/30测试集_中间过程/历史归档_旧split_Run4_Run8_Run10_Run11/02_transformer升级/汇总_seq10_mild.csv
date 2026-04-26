@@ -1,0 +1,2 @@
+﻿round_id,description,seq_len,d_model,nhead,num_layers,dim_ff,dropout,epochs,learning_rate,weight_decay,grad_clip_norm,use_validation,mean_pressure_mae,mean_pressure_rmse,mean_pressure_mape,mean_wear_mae_um,mean_life_abs_error,median_life_abs_error,mean_life_rel_error,max_life_abs_error,min_life_abs_error,mean_actual_epochs
+seq10_mild,seq_len=10 + 温和训练策略,10,32,4,2,64,0.0,1800,0.0005,1e-05,1.0,False,2.586689829826355,3.085348129272461,0.028751324396580458,0.13297527364317135,3929.496660443766,1866.950123921406,0.0730506089511069,11359.842629526727,624.2437644055244,1800.0

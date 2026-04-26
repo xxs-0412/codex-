@@ -1,0 +1,5 @@
+﻿file_name,F,D,Cr,actual_life,final_wear_um,actual_life_mode
+Run11.csv,4500.0,22.0,0.04,23918.706127369696,5.01668,measured
+Run25.csv,4000.0,16.0,0.03,22834.36330453385,5.01933,measured
+Run28.csv,2150.0,13.0,0.02,42449.22900678442,5.00685,measured
+Run4.csv,2160.0,8.0,0.008,38722.98916828896,5.03396,measured

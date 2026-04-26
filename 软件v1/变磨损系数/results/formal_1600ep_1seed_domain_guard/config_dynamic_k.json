@@ -1,0 +1,174 @@
+{
+  "seeds": [
+    20260425
+  ],
+  "epochs": 1600,
+  "seq_len": 12,
+  "actual_step_cap": 250.0,
+  "base_wear_coeff": 1.84e-10,
+  "test_files": [
+    "Run4.csv",
+    "Run28.csv",
+    "Run25.csv",
+    "Run11.csv"
+  ],
+  "stage_refs": {
+    "0": 0.9997982165618504,
+    "1": 0.9217519160022051
+  },
+  "dynamic_configs": [
+    {
+      "name": "T4_dynk_s0p25_c0p05_d0p1",
+      "strength": 0.25,
+      "clip_width": 0.05,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p25_c0p1_d0p1",
+      "strength": 0.25,
+      "clip_width": 0.1,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p25_c0p15_d0p1",
+      "strength": 0.25,
+      "clip_width": 0.15,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p25_c0p2_d0p1",
+      "strength": 0.25,
+      "clip_width": 0.2,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p5_c0p05_d0p1",
+      "strength": 0.5,
+      "clip_width": 0.05,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p5_c0p1_d0p1",
+      "strength": 0.5,
+      "clip_width": 0.1,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p5_c0p15_d0p1",
+      "strength": 0.5,
+      "clip_width": 0.15,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p5_c0p2_d0p1",
+      "strength": 0.5,
+      "clip_width": 0.2,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p75_c0p05_d0p1",
+      "strength": 0.75,
+      "clip_width": 0.05,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p75_c0p1_d0p1",
+      "strength": 0.75,
+      "clip_width": 0.1,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p75_c0p15_d0p1",
+      "strength": 0.75,
+      "clip_width": 0.15,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s0p75_c0p2_d0p1",
+      "strength": 0.75,
+      "clip_width": 0.2,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s1_c0p05_d0p1",
+      "strength": 1.0,
+      "clip_width": 0.05,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s1_c0p1_d0p1",
+      "strength": 1.0,
+      "clip_width": 0.1,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s1_c0p15_d0p1",
+      "strength": 1.0,
+      "clip_width": 0.15,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    },
+    {
+      "name": "T4_dynk_s1_c0p2_d0p1",
+      "strength": 1.0,
+      "clip_width": 0.2,
+      "late_mode": "freeze60",
+      "domain_tolerance": 0.1,
+      "min_t_kcycles": 5.0,
+      "late_t_kcycles": 60.0
+    }
+  ],
+  "device": [
+    "Device: cuda",
+    "Torch version: 2.7.0+cu128",
+    "CUDA available: True",
+    "CUDA device index: 0",
+    "CUDA device name: NVIDIA GeForce RTX 5070 Ti",
+    "CUDA capability: 12.0",
+    "CUDA total memory (GB): 15.92"
+  ]
+}

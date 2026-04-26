@@ -1,0 +1,23 @@
+30测试集 Transformer 候选搜索说明
+========================================================================
+Data source: C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\软件v1\数据快照\完整30run_4.24\处理后数据
+Split source: C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\软件v1\数据快照\30测试集\30测试集划分清单.csv
+Train runs: Run20.xlsx, Run7.xlsx, Run12.xlsx, Run29.xlsx, Run25.xlsx, Run15.xlsx, Run30.xlsx, Run24.xlsx, Run16.xlsx, Run22.xlsx, Run23.xlsx, Run18.xlsx, Run6.xlsx, Run28.xlsx, Run26.xlsx, Run5.xlsx, Run9.xlsx, Run17.xlsx, Run19.xlsx, Run14.xlsx, Run13.xlsx, Run3.xlsx, Run27.xlsx, Run2.xlsx, Run21.xlsx, Run1.xlsx
+Test runs: Run11.xlsx, Run4.xlsx, Run8.xlsx, Run10.xlsx
+Candidate count: 24
+公平性口径: 固定测试集不变，训练集 26 run，候选统一使用原始 5 维输入和原始 rollout 步长；本轮只比较 Transformer 参数。
+候选覆盖: seq_len=6/8/10/12/15/20，d_model=32/48/64/96，2/3层，ff=64/96/128/192/256，温和正则、低学习率和 validation 分支。
+
+CUDA:
+  Device: cuda
+  Torch version: 2.7.0+cu128
+  CUDA available: True
+  CUDA device index: 0
+  CUDA device name: NVIDIA GeForce RTX 5070 Ti
+  CUDA capability: 12.0
+  CUDA total memory (GB): 15.92
+
+30测试集 baseline Transformer:
+  pressure_MAE=1.90
+  wear_MAE=0.108
+  life_abs_error=3374

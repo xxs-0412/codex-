@@ -1,0 +1,42 @@
+测试说明
+============================================================
+实验名称: 30测试集 基准测试
+测试日期: 2026-04-24
+数据源: C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\软件v1\数据快照\完整30run_4.24\处理后数据
+测试集清单: C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\软件v1\数据快照\30测试集\30测试集划分清单.csv
+训练集数量: 26
+测试集数量: 4
+测试集 run: Run11.xlsx, Run4.xlsx, Run8.xlsx, Run10.xlsx
+序列长度: 6
+训练轮次: 1200
+
+实验目的:
+  在完整 30 组数据、固定测试集 Run4 / Run8 / Run10 / Run11 上建立五模型共同基线；测试集沿用旧主线，训练集由 13 个 run 扩展为 26 个 run，用于公平观察完整数据集带来的效果变化。
+
+实验方案:
+  所有模型统一使用 26 个训练 run 训练一次，再在固定的 4 个测试 run 上统一评估；模型结构、序列长度、训练轮次、闭环 rollout 口径保持与 17测试集基准一致。
+
+CUDA:
+  Device: cuda
+  Torch version: 2.7.0+cu128
+  CUDA available: True
+  CUDA device index: 0
+  CUDA device name: NVIDIA GeForce RTX 5070 Ti
+  CUDA capability: 12.0
+  CUDA total memory (GB): 15.92
+
+输出文件:
+  详细结果_各模型各测试集.csv
+  汇总_各模型平均指标.csv
+  图1_各工况寿命误差分组柱状图.png
+  图2_模型对比三指标柱状图.png
+  图3_平均预测寿命柱状图.png
+  测试说明.txt
+  结果说明与分析.txt
+
+模型排序（按寿命绝对误差）:
+  LSTM: life_abs_error=2902, pressure_MAE=2.28, wear_MAE=0.086
+  Transformer: life_abs_error=3374, pressure_MAE=1.90, wear_MAE=0.108
+  FNN: life_abs_error=4239, pressure_MAE=4.50, wear_MAE=0.175
+  GRU: life_abs_error=4846, pressure_MAE=3.20, wear_MAE=0.144
+  1D-CNN: life_abs_error=5479, pressure_MAE=3.98, wear_MAE=0.158

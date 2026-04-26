@@ -1,0 +1,762 @@
+train/eval | 01_五模型基准对比 | FNN | seed=20260425 | epochs=1600
+    epoch    1 | loss=1.010223e+00 | data=1.010223e+00
+    epoch  200 | loss=1.602729e-03 | data=1.563685e-03
+    epoch  400 | loss=5.523172e-04 | data=5.158159e-04
+    epoch  600 | loss=3.896101e-04 | data=3.585001e-04
+    epoch  800 | loss=3.225587e-04 | data=2.958325e-04
+    epoch 1000 | loss=2.876067e-04 | data=2.641334e-04
+    epoch 1200 | loss=2.634743e-04 | data=2.433729e-04
+    epoch 1400 | loss=2.457889e-04 | data=2.291758e-04
+    epoch 1600 | loss=2.369808e-04 | data=2.227919e-04
+train/eval | 01_五模型基准对比 | FNN | seed=20260426 | epochs=1600
+    epoch    1 | loss=1.027791e+00 | data=1.027791e+00
+    epoch  200 | loss=1.708818e-03 | data=1.619141e-03
+    epoch  400 | loss=6.418834e-04 | data=5.639280e-04
+    epoch  600 | loss=4.462900e-04 | data=3.787083e-04
+    epoch  800 | loss=3.599487e-04 | data=3.037614e-04
+    epoch 1000 | loss=3.141760e-04 | data=2.680041e-04
+    epoch 1200 | loss=2.868871e-04 | data=2.487263e-04
+    epoch 1400 | loss=2.651121e-04 | data=2.344683e-04
+    epoch 1600 | loss=2.512458e-04 | data=2.255983e-04
+train/eval | 01_五模型基准对比 | FNN | seed=20260427 | epochs=1600
+    epoch    1 | loss=9.986995e-01 | data=9.986989e-01
+    epoch  200 | loss=1.760626e-03 | data=1.724153e-03
+    epoch  400 | loss=5.499250e-04 | data=5.200207e-04
+    epoch  600 | loss=3.601120e-04 | data=3.334259e-04
+    epoch  800 | loss=2.943435e-04 | data=2.712822e-04
+    epoch 1000 | loss=2.599946e-04 | data=2.411533e-04
+    epoch 1200 | loss=2.415431e-04 | data=2.260610e-04
+    epoch 1400 | loss=2.295546e-04 | data=2.169260e-04
+    epoch 1600 | loss=2.197888e-04 | data=2.094871e-04
+train/eval | 01_五模型基准对比 | FNN | seed=20260428 | epochs=1600
+    epoch    1 | loss=1.023954e+00 | data=1.023952e+00
+    epoch  200 | loss=1.256489e-03 | data=1.220604e-03
+    epoch  400 | loss=5.570336e-04 | data=5.229513e-04
+    epoch  600 | loss=4.049556e-04 | data=3.739900e-04
+    epoch  800 | loss=3.353145e-04 | data=3.084660e-04
+    epoch 1000 | loss=2.929629e-04 | data=2.706806e-04
+    epoch 1200 | loss=2.655041e-04 | data=2.475379e-04
+    epoch 1400 | loss=2.479484e-04 | data=2.336747e-04
+    epoch 1600 | loss=2.590238e-04 | data=2.473793e-04
+train/eval | 01_五模型基准对比 | FNN | seed=20260429 | epochs=1600
+    epoch    1 | loss=1.018010e+00 | data=1.018010e+00
+    epoch  200 | loss=2.029257e-03 | data=1.997543e-03
+    epoch  400 | loss=6.507980e-04 | data=6.212160e-04
+    epoch  600 | loss=3.917266e-04 | data=3.647728e-04
+    epoch  800 | loss=3.004866e-04 | data=2.784574e-04
+    epoch 1000 | loss=2.620554e-04 | data=2.434851e-04
+    epoch 1200 | loss=2.415055e-04 | data=2.259677e-04
+    epoch 1400 | loss=2.274162e-04 | data=2.142011e-04
+    epoch 1600 | loss=2.264154e-04 | data=2.148850e-04
+train/eval | 01_五模型基准对比 | GRU | seed=20260425 | epochs=1600
+    epoch    1 | loss=8.931296e-01 | data=8.931281e-01
+    epoch  200 | loss=4.937321e-03 | data=4.921251e-03
+    epoch  400 | loss=1.784007e-03 | data=1.749552e-03
+    epoch  600 | loss=1.078046e-03 | data=1.041408e-03
+    epoch  800 | loss=7.756859e-04 | data=7.391792e-04
+    epoch 1000 | loss=6.033496e-04 | data=5.679005e-04
+    epoch 1200 | loss=4.944532e-04 | data=4.611863e-04
+    epoch 1400 | loss=4.221876e-04 | data=3.921341e-04
+    epoch 1600 | loss=3.741252e-04 | data=3.476011e-04
+train/eval | 01_五模型基准对比 | GRU | seed=20260426 | epochs=1600
+    epoch    1 | loss=1.050587e+00 | data=1.050587e+00
+    epoch  200 | loss=5.287923e-03 | data=5.258306e-03
+    epoch  400 | loss=2.014330e-03 | data=1.966979e-03
+    epoch  600 | loss=1.081185e-03 | data=1.033675e-03
+    epoch  800 | loss=7.189466e-04 | data=6.740715e-04
+    epoch 1000 | loss=5.330399e-04 | data=4.904924e-04
+    epoch 1200 | loss=4.318086e-04 | data=3.913267e-04
+    epoch 1400 | loss=3.847096e-04 | data=3.468760e-04
+    epoch 1600 | loss=3.555517e-04 | data=3.210163e-04
+train/eval | 01_五模型基准对比 | GRU | seed=20260427 | epochs=1600
+    epoch    1 | loss=8.445584e-01 | data=8.445584e-01
+    epoch  200 | loss=5.240713e-03 | data=5.226224e-03
+    epoch  400 | loss=1.878147e-03 | data=1.852645e-03
+    epoch  600 | loss=1.087970e-03 | data=1.061077e-03
+    epoch  800 | loss=6.515548e-04 | data=6.254290e-04
+    epoch 1000 | loss=4.688908e-04 | data=4.442602e-04
+    epoch 1200 | loss=3.980318e-04 | data=3.754397e-04
+    epoch 1400 | loss=3.599369e-04 | data=3.393692e-04
+    epoch 1600 | loss=3.342608e-04 | data=3.156574e-04
+train/eval | 01_五模型基准对比 | GRU | seed=20260428 | epochs=1600
+    epoch    1 | loss=9.870872e-01 | data=9.870871e-01
+    epoch  200 | loss=6.097239e-03 | data=6.067479e-03
+    epoch  400 | loss=2.362853e-03 | data=2.319155e-03
+    epoch  600 | loss=1.294902e-03 | data=1.251519e-03
+    epoch  800 | loss=8.661312e-04 | data=8.249063e-04
+    epoch 1000 | loss=6.259634e-04 | data=5.878017e-04
+    epoch 1200 | loss=4.915813e-04 | data=4.568203e-04
+    epoch 1400 | loss=4.165521e-04 | data=3.855744e-04
+    epoch 1600 | loss=3.717245e-04 | data=3.442743e-04
+train/eval | 01_五模型基准对比 | GRU | seed=20260429 | epochs=1600
+    epoch    1 | loss=1.130827e+00 | data=1.130803e+00
+    epoch  200 | loss=5.573613e-03 | data=5.557478e-03
+    epoch  400 | loss=2.277523e-03 | data=2.246818e-03
+    epoch  600 | loss=1.318660e-03 | data=1.288004e-03
+    epoch  800 | loss=9.176839e-04 | data=8.916159e-04
+    epoch 1000 | loss=6.792889e-04 | data=6.577682e-04
+    epoch 1200 | loss=5.253492e-04 | data=5.076015e-04
+    epoch 1400 | loss=4.325199e-04 | data=4.175220e-04
+    epoch 1600 | loss=3.779628e-04 | data=3.649932e-04
+train/eval | 01_五模型基准对比 | LSTM | seed=20260425 | epochs=1600
+    epoch    1 | loss=1.097557e+00 | data=1.097557e+00
+    epoch  200 | loss=3.431871e-03 | data=3.387325e-03
+    epoch  400 | loss=1.305512e-03 | data=1.254511e-03
+    epoch  600 | loss=7.863782e-04 | data=7.344845e-04
+    epoch  800 | loss=5.953014e-04 | data=5.454902e-04
+    epoch 1000 | loss=4.934343e-04 | data=4.480414e-04
+    epoch 1200 | loss=4.319942e-04 | data=3.916352e-04
+    epoch 1400 | loss=3.913004e-04 | data=3.560252e-04
+    epoch 1600 | loss=3.618085e-04 | data=3.315111e-04
+train/eval | 01_五模型基准对比 | LSTM | seed=20260426 | epochs=1600
+    epoch    1 | loss=1.066742e+00 | data=1.066737e+00
+    epoch  200 | loss=5.430403e-03 | data=5.384364e-03
+    epoch  400 | loss=1.845697e-03 | data=1.795907e-03
+    epoch  600 | loss=9.606586e-04 | data=9.149828e-04
+    epoch  800 | loss=6.517774e-04 | data=6.063862e-04
+    epoch 1000 | loss=5.164655e-04 | data=4.723167e-04
+    epoch 1200 | loss=4.415537e-04 | data=4.007352e-04
+    epoch 1400 | loss=3.942832e-04 | data=3.581055e-04
+    epoch 1600 | loss=3.610594e-04 | data=3.297930e-04
+train/eval | 01_五模型基准对比 | LSTM | seed=20260427 | epochs=1600
+    epoch    1 | loss=1.052208e+00 | data=1.052207e+00
+    epoch  200 | loss=3.603148e-03 | data=3.544793e-03
+    epoch  400 | loss=1.338026e-03 | data=1.271929e-03
+    epoch  600 | loss=7.658209e-04 | data=6.943861e-04
+    epoch  800 | loss=5.772557e-04 | data=5.089636e-04
+    epoch 1000 | loss=4.857001e-04 | data=4.259828e-04
+    epoch 1200 | loss=4.255571e-04 | data=3.755830e-04
+    epoch 1400 | loss=3.824566e-04 | data=3.416319e-04
+    epoch 1600 | loss=3.509984e-04 | data=3.183410e-04
+train/eval | 01_五模型基准对比 | LSTM | seed=20260428 | epochs=1600
+    epoch    1 | loss=1.012363e+00 | data=1.012363e+00
+    epoch  200 | loss=4.463031e-03 | data=4.405738e-03
+    epoch  400 | loss=1.605678e-03 | data=1.549965e-03
+    epoch  600 | loss=8.784283e-04 | data=8.214008e-04
+    epoch  800 | loss=6.484523e-04 | data=5.982661e-04
+    epoch 1000 | loss=5.359483e-04 | data=4.946715e-04
+    epoch 1200 | loss=4.613129e-04 | data=4.282800e-04
+    epoch 1400 | loss=4.090546e-04 | data=3.830424e-04
+    epoch 1600 | loss=3.726677e-04 | data=3.525715e-04
+train/eval | 01_五模型基准对比 | LSTM | seed=20260429 | epochs=1600
+    epoch    1 | loss=9.467131e-01 | data=9.467131e-01
+    epoch  200 | loss=3.315895e-03 | data=3.269749e-03
+    epoch  400 | loss=1.177007e-03 | data=1.125897e-03
+    epoch  600 | loss=7.500277e-04 | data=7.001348e-04
+    epoch  800 | loss=5.454011e-04 | data=5.004260e-04
+    epoch 1000 | loss=4.503179e-04 | data=4.117178e-04
+    epoch 1200 | loss=3.967190e-04 | data=3.645561e-04
+    epoch 1400 | loss=3.742803e-04 | data=3.479620e-04
+    epoch 1600 | loss=3.391864e-04 | data=3.177701e-04
+train/eval | 01_五模型基准对比 | 1D-CNN | seed=20260425 | epochs=1600
+    epoch    1 | loss=1.037981e+00 | data=1.037981e+00
+    epoch  200 | loss=9.535233e-04 | data=9.239762e-04
+    epoch  400 | loss=4.538889e-04 | data=4.304629e-04
+    epoch  600 | loss=3.357628e-04 | data=3.166207e-04
+    epoch  800 | loss=3.128801e-04 | data=2.963330e-04
+    epoch 1000 | loss=2.402696e-04 | data=2.252632e-04
+    epoch 1200 | loss=1.269474e-03 | data=1.256129e-03
+    epoch 1400 | loss=2.041885e-04 | data=1.918753e-04
+    epoch 1600 | loss=1.900865e-04 | data=1.789767e-04
+train/eval | 01_五模型基准对比 | 1D-CNN | seed=20260426 | epochs=1600
+    epoch    1 | loss=9.794758e-01 | data=9.794757e-01
+    epoch  200 | loss=1.215719e-03 | data=1.173495e-03
+    epoch  400 | loss=5.158412e-04 | data=4.845196e-04
+    epoch  600 | loss=3.533591e-04 | data=3.282333e-04
+    epoch  800 | loss=3.047947e-04 | data=2.831463e-04
+    epoch 1000 | loss=2.368506e-04 | data=2.178440e-04
+    epoch 1200 | loss=2.826415e-04 | data=2.659434e-04
+    epoch 1400 | loss=2.471710e-04 | data=2.318168e-04
+    epoch 1600 | loss=1.869585e-04 | data=1.730579e-04
+train/eval | 01_五模型基准对比 | 1D-CNN | seed=20260427 | epochs=1600
+    epoch    1 | loss=1.052159e+00 | data=1.052157e+00
+    epoch  200 | loss=1.064339e-03 | data=1.008661e-03
+    epoch  400 | loss=5.216476e-04 | data=4.704462e-04
+    epoch  600 | loss=4.277144e-04 | data=3.848120e-04
+    epoch  800 | loss=3.074876e-04 | data=2.719398e-04
+    epoch 1000 | loss=2.724351e-04 | data=2.425161e-04
+    epoch 1200 | loss=4.198564e-04 | data=3.956017e-04
+    epoch 1400 | loss=2.250395e-04 | data=2.042995e-04
+    epoch 1600 | loss=2.629241e-04 | data=2.457014e-04
+train/eval | 01_五模型基准对比 | 1D-CNN | seed=20260428 | epochs=1600
+    epoch    1 | loss=1.024602e+00 | data=1.024601e+00
+    epoch  200 | loss=1.298645e-03 | data=1.248856e-03
+    epoch  400 | loss=4.874264e-04 | data=4.477471e-04
+    epoch  600 | loss=3.653572e-04 | data=3.325898e-04
+    epoch  800 | loss=3.127145e-04 | data=2.859170e-04
+    epoch 1000 | loss=3.143662e-04 | data=2.921953e-04
+    epoch 1200 | loss=3.708710e-04 | data=3.519671e-04
+    epoch 1400 | loss=2.444763e-04 | data=2.266457e-04
+    epoch 1600 | loss=2.226926e-04 | data=2.077834e-04
+train/eval | 01_五模型基准对比 | 1D-CNN | seed=20260429 | epochs=1600
+    epoch    1 | loss=9.947929e-01 | data=9.947927e-01
+    epoch  200 | loss=1.094316e-03 | data=1.059782e-03
+    epoch  400 | loss=4.770179e-04 | data=4.471160e-04
+    epoch  600 | loss=3.422778e-04 | data=3.174735e-04
+    epoch  800 | loss=2.935419e-04 | data=2.734212e-04
+    epoch 1000 | loss=3.604398e-04 | data=3.438193e-04
+    epoch 1200 | loss=3.283932e-04 | data=3.141947e-04
+    epoch 1400 | loss=1.456144e-03 | data=1.444059e-03
+    epoch 1600 | loss=1.920655e-04 | data=1.812172e-04
+train/eval | 01_五模型基准对比 | Transformer | seed=20260425 | epochs=1600
+    epoch    1 | loss=1.033739e+00 | data=1.033737e+00
+    epoch  200 | loss=8.438489e-04 | data=7.618361e-04
+    epoch  400 | loss=4.274833e-04 | data=3.607990e-04
+    epoch  600 | loss=3.338885e-04 | data=2.850749e-04
+    epoch  800 | loss=2.806638e-04 | data=2.453234e-04
+    epoch 1000 | loss=3.766546e-04 | data=3.504643e-04
+    epoch 1200 | loss=2.222798e-04 | data=2.024972e-04
+    epoch 1400 | loss=1.803066e-04 | data=1.647438e-04
+    epoch 1600 | loss=1.586997e-04 | data=1.470987e-04
+train/eval | 01_五模型基准对比 | Transformer | seed=20260426 | epochs=1600
+    epoch    1 | loss=1.227352e+00 | data=1.227335e+00
+    epoch  200 | loss=1.082874e-03 | data=1.016749e-03
+    epoch  400 | loss=4.789275e-04 | data=4.196410e-04
+    epoch  600 | loss=3.524134e-04 | data=3.036937e-04
+    epoch  800 | loss=2.842577e-04 | data=2.455327e-04
+    epoch 1000 | loss=2.437124e-04 | data=2.125817e-04
+    epoch 1200 | loss=2.540414e-04 | data=2.284964e-04
+    epoch 1400 | loss=1.958837e-04 | data=1.751053e-04
+    epoch 1600 | loss=1.814045e-04 | data=1.642124e-04
+train/eval | 01_五模型基准对比 | Transformer | seed=20260427 | epochs=1600
+    epoch    1 | loss=1.155281e+00 | data=1.155265e+00
+    epoch  200 | loss=9.014797e-04 | data=8.365294e-04
+    epoch  400 | loss=4.678795e-04 | data=4.162515e-04
+    epoch  600 | loss=3.449218e-04 | data=3.056670e-04
+    epoch  800 | loss=2.733935e-04 | data=2.443145e-04
+    epoch 1000 | loss=2.282227e-04 | data=2.060536e-04
+    epoch 1200 | loss=1.921063e-04 | data=1.747204e-04
+    epoch 1400 | loss=1.827057e-04 | data=1.678836e-04
+    epoch 1600 | loss=1.664239e-04 | data=1.542731e-04
+train/eval | 01_五模型基准对比 | Transformer | seed=20260428 | epochs=1600
+    epoch    1 | loss=1.086198e+00 | data=1.086157e+00
+    epoch  200 | loss=1.066743e-03 | data=9.767228e-04
+    epoch  400 | loss=4.914307e-04 | data=4.228820e-04
+    epoch  600 | loss=3.561286e-04 | data=3.068341e-04
+    epoch  800 | loss=3.233961e-04 | data=2.900867e-04
+    epoch 1000 | loss=2.406328e-04 | data=2.170439e-04
+    epoch 1200 | loss=2.213677e-04 | data=2.035926e-04
+    epoch 1400 | loss=2.009718e-04 | data=1.875539e-04
+    epoch 1600 | loss=1.892605e-04 | data=1.779830e-04
+train/eval | 01_五模型基准对比 | Transformer | seed=20260429 | epochs=1600
+    epoch    1 | loss=1.125234e+00 | data=1.125231e+00
+    epoch  200 | loss=9.101109e-04 | data=8.361480e-04
+    epoch  400 | loss=4.295268e-04 | data=3.801813e-04
+    epoch  600 | loss=3.258790e-04 | data=2.923342e-04
+    epoch  800 | loss=2.619339e-04 | data=2.384842e-04
+    epoch 1000 | loss=2.185016e-04 | data=2.012784e-04
+    epoch 1200 | loss=1.996778e-04 | data=1.863790e-04
+    epoch 1400 | loss=1.683660e-04 | data=1.581497e-04
+    epoch 1600 | loss=1.520569e-04 | data=1.440402e-04
+train/eval | 02_模块一_粗筛 | M1_0_5d_baseline | seed=20260425 | epochs=800
+    epoch    1 | loss=1.033739e+00 | data=1.033737e+00
+    epoch  200 | loss=8.438489e-04 | data=7.618361e-04
+    epoch  400 | loss=4.274833e-04 | data=3.607990e-04
+    epoch  600 | loss=3.338885e-04 | data=2.850749e-04
+    epoch  800 | loss=2.806638e-04 | data=2.453234e-04
+train/eval | 02_模块一_粗筛 | M1_0_5d_baseline | seed=20260426 | epochs=800
+    epoch    1 | loss=1.227352e+00 | data=1.227335e+00
+    epoch  200 | loss=1.082874e-03 | data=1.016749e-03
+    epoch  400 | loss=4.789275e-04 | data=4.196410e-04
+    epoch  600 | loss=3.524134e-04 | data=3.036937e-04
+    epoch  800 | loss=2.842577e-04 | data=2.455327e-04
+train/eval | 02_模块一_粗筛 | M1_R1_static_ratio | seed=20260425 | epochs=800
+    epoch    1 | loss=1.550639e+00 | data=1.550614e+00
+    epoch  200 | loss=9.097572e-04 | data=8.821408e-04
+    epoch  400 | loss=4.236701e-04 | data=3.986628e-04
+    epoch  600 | loss=3.257723e-04 | data=3.044012e-04
+    epoch  800 | loss=2.799924e-04 | data=2.621637e-04
+train/eval | 02_模块一_粗筛 | M1_R1_static_ratio | seed=20260426 | epochs=800
+    epoch    1 | loss=1.022355e+00 | data=1.022349e+00
+    epoch  200 | loss=5.500491e-04 | data=5.205484e-04
+    epoch  400 | loss=3.273908e-04 | data=2.994155e-04
+    epoch  600 | loss=2.687126e-04 | data=2.441459e-04
+    epoch  800 | loss=2.393327e-04 | data=2.178205e-04
+train/eval | 02_模块一_粗筛 | M1_R2_log_cycle_replace | seed=20260425 | epochs=800
+    epoch    1 | loss=1.575376e+00 | data=1.575349e+00
+    epoch  200 | loss=9.506036e-04 | data=9.505937e-04
+    epoch  400 | loss=4.471635e-04 | data=4.471595e-04
+    epoch  600 | loss=3.389245e-04 | data=3.389221e-04
+    epoch  800 | loss=2.867795e-04 | data=2.867777e-04
+train/eval | 02_模块一_粗筛 | M1_R2_log_cycle_replace | seed=20260426 | epochs=800
+    epoch    1 | loss=1.079449e+00 | data=1.079445e+00
+    epoch  200 | loss=5.053593e-04 | data=5.052447e-04
+    epoch  400 | loss=2.887698e-04 | data=2.887188e-04
+    epoch  600 | loss=2.526258e-04 | data=2.525929e-04
+    epoch  800 | loss=2.494042e-04 | data=2.493826e-04
+train/eval | 02_模块一_粗筛 | M1_R3_log_cycle_keep | seed=20260425 | epochs=800
+    epoch    1 | loss=7.866523e-01 | data=7.866495e-01
+    epoch  200 | loss=8.813793e-04 | data=8.572752e-04
+    epoch  400 | loss=3.946850e-04 | data=3.765576e-04
+    epoch  600 | loss=2.848450e-04 | data=2.711141e-04
+    epoch  800 | loss=2.437604e-04 | data=2.334619e-04
+train/eval | 02_模块一_粗筛 | M1_R3_log_cycle_keep | seed=20260426 | epochs=800
+    epoch    1 | loss=1.098453e+00 | data=1.098408e+00
+    epoch  200 | loss=1.088852e-03 | data=1.067219e-03
+    epoch  400 | loss=4.443568e-04 | data=4.268985e-04
+    epoch  600 | loss=3.219963e-04 | data=3.083434e-04
+    epoch  800 | loss=2.754589e-04 | data=2.647197e-04
+train/eval | 02_模块一_复筛 | M1_R2_log_cycle_replace | seed=20260425 | epochs=1200
+    epoch    1 | loss=1.575376e+00 | data=1.575349e+00
+    epoch  200 | loss=9.506036e-04 | data=9.505937e-04
+    epoch  400 | loss=4.471635e-04 | data=4.471595e-04
+    epoch  600 | loss=3.389245e-04 | data=3.389221e-04
+    epoch  800 | loss=2.867795e-04 | data=2.867777e-04
+    epoch 1000 | loss=2.669106e-04 | data=2.669097e-04
+    epoch 1200 | loss=2.671935e-04 | data=2.671921e-04
+train/eval | 02_模块一_复筛 | M1_R2_log_cycle_replace | seed=20260426 | epochs=1200
+    epoch    1 | loss=1.079449e+00 | data=1.079445e+00
+    epoch  200 | loss=5.053593e-04 | data=5.052447e-04
+    epoch  400 | loss=2.887698e-04 | data=2.887188e-04
+    epoch  600 | loss=2.526258e-04 | data=2.525929e-04
+    epoch  800 | loss=2.494042e-04 | data=2.493826e-04
+    epoch 1000 | loss=3.122757e-04 | data=3.122455e-04
+    epoch 1200 | loss=2.166907e-04 | data=2.166742e-04
+train/eval | 02_模块一_复筛 | M1_R2_log_cycle_replace | seed=20260427 | epochs=1200
+    epoch    1 | loss=8.035467e-01 | data=8.035402e-01
+    epoch  200 | loss=6.555046e-04 | data=6.554493e-04
+    epoch  400 | loss=3.193078e-04 | data=3.193009e-04
+    epoch  600 | loss=2.521400e-04 | data=2.521363e-04
+    epoch  800 | loss=2.424129e-04 | data=2.424116e-04
+    epoch 1000 | loss=2.136688e-04 | data=2.136688e-04
+    epoch 1200 | loss=3.352683e-04 | data=3.352683e-04
+train/eval | 02_模块一_复筛 | M1_R3_log_cycle_keep | seed=20260425 | epochs=1200
+    epoch    1 | loss=7.866523e-01 | data=7.866495e-01
+    epoch  200 | loss=8.813793e-04 | data=8.572752e-04
+    epoch  400 | loss=3.946850e-04 | data=3.765576e-04
+    epoch  600 | loss=2.848450e-04 | data=2.711141e-04
+    epoch  800 | loss=2.437604e-04 | data=2.334619e-04
+    epoch 1000 | loss=2.752220e-04 | data=2.683103e-04
+    epoch 1200 | loss=2.126379e-04 | data=2.074961e-04
+train/eval | 02_模块一_复筛 | M1_R3_log_cycle_keep | seed=20260426 | epochs=1200
+    epoch    1 | loss=1.098453e+00 | data=1.098408e+00
+    epoch  200 | loss=1.088852e-03 | data=1.067219e-03
+    epoch  400 | loss=4.443568e-04 | data=4.268985e-04
+    epoch  600 | loss=3.219963e-04 | data=3.083434e-04
+    epoch  800 | loss=2.754589e-04 | data=2.647197e-04
+    epoch 1000 | loss=2.482932e-04 | data=2.398754e-04
+    epoch 1200 | loss=2.282315e-04 | data=2.217447e-04
+train/eval | 02_模块一_复筛 | M1_R3_log_cycle_keep | seed=20260427 | epochs=1200
+    epoch    1 | loss=9.946113e-01 | data=9.946067e-01
+    epoch  200 | loss=8.052210e-04 | data=7.903282e-04
+    epoch  400 | loss=3.469960e-04 | data=3.341048e-04
+    epoch  600 | loss=2.674000e-04 | data=2.573101e-04
+    epoch  800 | loss=2.345283e-04 | data=2.266764e-04
+    epoch 1000 | loss=2.167582e-04 | data=2.105733e-04
+    epoch 1200 | loss=2.039538e-04 | data=1.989908e-04
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S1_slow_abs_0p003 | seed=20260425 | epochs=800
+    epoch    1 | loss=7.867895e-01 | data=7.866495e-01 | mono=7.162137e-02 | slow=4.573303e-02
+    epoch  200 | loss=1.157573e-03 | data=8.974284e-04 | mono=5.662853e-03 | slow=7.855984e-02
+    epoch  400 | loss=6.414361e-04 | data=4.351316e-04 | mono=3.781068e-03 | slow=6.226633e-02
+    epoch  600 | loss=4.921793e-04 | data=3.369116e-04 | mono=3.226251e-03 | slow=4.646136e-02
+    epoch  800 | loss=4.116047e-04 | data=2.994439e-04 | mono=1.904211e-03 | slow=3.326316e-02
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S1_slow_abs_0p003 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.098708e+00 | data=1.098408e+00 | mono=3.483419e-01 | slow=8.503947e-02
+    epoch  200 | loss=1.332674e-03 | data=1.077899e-03 | mono=4.614537e-03 | slow=7.775836e-02
+    epoch  400 | loss=6.751857e-04 | data=4.803250e-04 | mono=1.445355e-03 | slow=5.902011e-02
+    epoch  600 | loss=5.253397e-04 | data=3.683147e-04 | mono=1.334698e-03 | slow=4.771128e-02
+    epoch  800 | loss=4.451410e-04 | data=3.250042e-04 | mono=1.107700e-03 | slow=3.632578e-02
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S1_slow_abs_0p01 | seed=20260425 | epochs=800
+    epoch    1 | loss=7.871096e-01 | data=7.866495e-01 | mono=7.162137e-02 | slow=4.573303e-02
+    epoch  200 | loss=1.505826e-03 | data=9.672083e-04 | mono=3.137193e-03 | slow=5.145162e-02
+    epoch  400 | loss=8.362193e-04 | data=5.046068e-04 | mono=1.807995e-03 | slow=3.117320e-02
+    epoch  600 | loss=5.771136e-04 | data=3.795666e-04 | mono=0.000000e+00 | slow=1.819674e-02
+    epoch  800 | loss=4.641032e-04 | data=3.308798e-04 | mono=0.000000e+00 | slow=1.215515e-02
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S1_slow_abs_0p01 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.099303e+00 | data=1.098408e+00 | mono=3.483419e-01 | slow=8.503947e-02
+    epoch  200 | loss=1.734191e-03 | data=1.163507e-03 | mono=7.311521e-04 | slow=5.496268e-02
+    epoch  400 | loss=9.246502e-04 | data=5.473850e-04 | mono=1.375374e-04 | slow=3.610656e-02
+    epoch  600 | loss=6.402780e-04 | data=4.102983e-04 | mono=3.114772e-06 | slow=2.179037e-02
+    epoch  800 | loss=5.010269e-04 | data=3.485102e-04 | mono=0.000000e+00 | slow=1.435928e-02
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S1_slow_abs_0p03 | seed=20260425 | epochs=800
+    epoch    1 | loss=7.880242e-01 | data=7.866495e-01 | mono=7.162137e-02 | slow=4.573303e-02
+    epoch  200 | loss=2.161015e-03 | data=1.195838e-03 | mono=1.348287e-03 | slow=3.145065e-02
+    epoch  400 | loss=1.010593e-03 | data=6.282264e-04 | mono=1.706464e-06 | slow=1.223326e-02
+    epoch  600 | loss=6.433080e-04 | data=4.557910e-04 | mono=0.000000e+00 | slow=5.849614e-03
+    epoch  800 | loss=4.737895e-04 | data=3.647742e-04 | mono=0.000000e+00 | slow=3.241106e-03
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S1_slow_abs_0p03 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.101004e+00 | data=1.098408e+00 | mono=3.483419e-01 | slow=8.503947e-02
+    epoch  200 | loss=2.442720e-03 | data=1.421763e-03 | mono=4.709925e-04 | slow=3.338165e-02
+    epoch  400 | loss=1.019326e-03 | data=6.228246e-04 | mono=1.265046e-05 | slow=1.277369e-02
+    epoch  600 | loss=6.308144e-04 | data=4.379443e-04 | mono=0.000000e+00 | slow=6.091224e-03
+    epoch  800 | loss=4.899526e-04 | data=3.748967e-04 | mono=0.000000e+00 | slow=3.541623e-03
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p003 | seed=20260425 | epochs=800
+    epoch    1 | loss=7.871476e-01 | data=7.866495e-01 | mono=7.162137e-02 | slow=4.573303e-02
+    epoch  200 | loss=1.168406e-03 | data=9.084154e-04 | mono=2.956391e-03 | slow=7.332601e-02
+    epoch  400 | loss=6.368463e-04 | data=4.358733e-04 | mono=1.349063e-03 | slow=5.797969e-02
+    epoch  600 | loss=4.817197e-04 | data=3.368615e-04 | mono=7.362958e-06 | slow=4.263327e-02
+    epoch  800 | loss=4.053252e-04 | data=3.011172e-04 | mono=0.000000e+00 | slow=3.018642e-02
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p003 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.100450e+00 | data=1.098408e+00 | mono=3.483419e-01 | slow=8.503947e-02
+    epoch  200 | loss=1.319426e-03 | data=1.079435e-03 | mono=6.492693e-04 | slow=7.175322e-02
+    epoch  400 | loss=6.705564e-04 | data=4.822384e-04 | mono=5.579312e-05 | slow=5.680804e-02
+    epoch  600 | loss=5.194918e-04 | data=3.695043e-04 | mono=1.175493e-05 | slow=4.546315e-02
+    epoch  800 | loss=4.392410e-04 | data=3.228064e-04 | mono=8.553465e-07 | slow=3.528528e-02
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p01 | seed=20260425 | epochs=800
+    epoch    1 | loss=7.874677e-01 | data=7.866495e-01 | mono=7.162137e-02 | slow=4.573303e-02
+    epoch  200 | loss=1.516111e-03 | data=9.752563e-04 | mono=2.141796e-03 | slow=5.061238e-02
+    epoch  400 | loss=8.165363e-04 | data=4.985707e-04 | mono=8.312931e-05 | slow=2.976021e-02
+    epoch  600 | loss=5.758952e-04 | data=3.737408e-04 | mono=0.000000e+00 | slow=1.863629e-02
+    epoch  800 | loss=4.740490e-04 | data=3.375293e-04 | mono=0.000000e+00 | slow=1.247268e-02
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p01 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.101045e+00 | data=1.098408e+00 | mono=3.483419e-01 | slow=8.503947e-02
+    epoch  200 | loss=1.721394e-03 | data=1.159736e-03 | mono=2.995679e-04 | slow=5.394131e-02
+    epoch  400 | loss=9.196681e-04 | data=5.490247e-04 | mono=3.993485e-05 | slow=3.545910e-02
+    epoch  600 | loss=6.467470e-04 | data=4.173598e-04 | mono=4.636211e-06 | slow=2.172475e-02
+    epoch  800 | loss=5.160726e-04 | data=3.576968e-04 | mono=0.000000e+00 | slow=1.488542e-02
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p03 | seed=20260425 | epochs=800
+    epoch    1 | loss=7.883824e-01 | data=7.866495e-01 | mono=7.162137e-02 | slow=4.573303e-02
+    epoch  200 | loss=2.127682e-03 | data=1.205471e-03 | mono=7.448873e-04 | slow=2.991695e-02
+    epoch  400 | loss=9.743582e-04 | data=6.168364e-04 | mono=2.188587e-07 | slow=1.142573e-02
+    epoch  600 | loss=6.350467e-04 | data=4.365063e-04 | mono=0.000000e+00 | slow=6.243803e-03
+    epoch  800 | loss=5.058946e-04 | data=3.756959e-04 | mono=0.000000e+00 | slow=4.013833e-03
+train/eval | 03_模块二_粗筛 | M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p03 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.102746e+00 | data=1.098408e+00 | mono=3.483419e-01 | slow=8.503947e-02
+    epoch  200 | loss=2.443654e-03 | data=1.365618e-03 | mono=2.962808e-04 | slow=3.525385e-02
+    epoch  400 | loss=1.021029e-03 | data=6.278408e-04 | mono=2.186473e-05 | slow=1.267251e-02
+    epoch  600 | loss=6.355328e-04 | data=4.509924e-04 | mono=0.000000e+00 | slow=5.824466e-03
+    epoch  800 | loss=5.170538e-04 | data=3.956900e-04 | mono=0.000000e+00 | slow=3.755025e-03
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p003 | seed=20260425 | epochs=800
+    epoch    1 | loss=1.575627e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=1.312989e-03 | data=9.909857e-04 | mono=6.412300e-03 | slow=1.073305e-01
+    epoch  400 | loss=7.632600e-04 | data=4.912942e-04 | mono=2.760587e-03 | slow=9.065461e-02
+    epoch  600 | loss=6.105553e-04 | data=3.964748e-04 | mono=2.608198e-03 | slow=7.135969e-02
+    epoch  800 | loss=4.915221e-04 | data=3.500197e-04 | mono=2.437376e-03 | slow=4.716719e-02
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p003 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.079602e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=8.453786e-04 | data=5.542630e-04 | mono=8.212479e-04 | slow=9.699889e-02
+    epoch  400 | loss=5.631553e-04 | data=3.500984e-04 | mono=7.002316e-04 | slow=7.100186e-02
+    epoch  600 | loss=4.405240e-04 | data=3.173779e-04 | mono=8.568944e-04 | slow=4.104134e-02
+    epoch  800 | loss=3.936638e-04 | data=3.283611e-04 | mono=7.091002e-04 | slow=2.176367e-02
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p01 | seed=20260425 | epochs=800
+    epoch    1 | loss=1.576212e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=1.838507e-03 | data=1.094171e-03 | mono=3.184439e-03 | slow=7.443212e-02
+    epoch  400 | loss=9.564856e-04 | data=6.054536e-04 | mono=6.733702e-04 | slow=3.510281e-02
+    epoch  600 | loss=6.287126e-04 | data=4.578614e-04 | mono=2.233839e-05 | slow=1.708503e-02
+    epoch  800 | loss=5.081170e-04 | data=3.813245e-04 | mono=1.113748e-05 | slow=1.267920e-02
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p01 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.079959e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=1.237324e-03 | data=6.810394e-04 | mono=3.934699e-04 | slow=5.561579e-02
+    epoch  400 | loss=5.694327e-04 | data=4.098898e-04 | mono=5.426639e-05 | slow=1.594973e-02
+    epoch  600 | loss=4.678849e-04 | data=3.567553e-04 | mono=1.938010e-06 | slow=1.111079e-02
+    epoch  800 | loss=4.474394e-04 | data=3.609930e-04 | mono=1.931560e-05 | slow=8.641928e-03
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p03 | seed=20260425 | epochs=800
+    epoch    1 | loss=1.577884e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=2.273248e-03 | data=1.377366e-03 | mono=1.456814e-03 | slow=2.985998e-02
+    epoch  400 | loss=1.047024e-03 | data=6.667858e-04 | mono=2.539396e-05 | slow=1.267428e-02
+    epoch  600 | loss=7.815139e-04 | data=5.064646e-04 | mono=2.766924e-06 | slow=9.168120e-03
+    epoch  800 | loss=6.223227e-04 | data=4.467066e-04 | mono=4.863527e-07 | slow=5.853651e-03
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p03 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.080977e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=1.308700e-03 | data=8.506124e-04 | mono=1.968809e-04 | slow=1.526570e-02
+    epoch  400 | loss=6.941743e-04 | data=4.546699e-04 | mono=9.841242e-06 | slow=7.981920e-03
+    epoch  600 | loss=5.516571e-04 | data=4.058889e-04 | mono=1.839048e-05 | slow=4.857984e-03
+    epoch  800 | loss=5.522612e-04 | data=4.632491e-04 | mono=2.072920e-05 | slow=2.966213e-03
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p003 | seed=20260425 | epochs=800
+    epoch    1 | loss=1.578122e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=1.319818e-03 | data=9.958163e-04 | mono=2.554463e-03 | slow=1.037377e-01
+    epoch  400 | loss=7.747429e-04 | data=5.021622e-04 | mono=8.662693e-04 | slow=8.941500e-02
+    epoch  600 | loss=6.181255e-04 | data=4.082328e-04 | mono=3.981432e-05 | slow=6.989695e-02
+    epoch  800 | loss=4.935314e-04 | data=3.569121e-04 | mono=0.000000e+00 | slow=4.553900e-02
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p003 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.080182e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=8.467179e-04 | data=5.501513e-04 | mono=7.754641e-04 | slow=9.752521e-02
+    epoch  400 | loss=5.605271e-04 | data=3.489941e-04 | mono=1.863587e-04 | slow=7.018504e-02
+    epoch  600 | loss=4.365694e-04 | data=3.140705e-04 | mono=8.219150e-05 | slow=4.069057e-02
+    epoch  800 | loss=4.298721e-04 | data=3.698175e-04 | mono=8.654964e-06 | slow=1.999847e-02
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p01 | seed=20260425 | epochs=800
+    epoch    1 | loss=1.578707e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=1.816732e-03 | data=1.091697e-03 | mono=6.100682e-04 | slow=7.219651e-02
+    epoch  400 | loss=9.394515e-04 | data=6.084970e-04 | mono=9.917367e-07 | slow=3.309425e-02
+    epoch  600 | loss=6.318364e-04 | data=4.649344e-04 | mono=1.439710e-05 | slow=1.668283e-02
+    epoch  800 | loss=5.161017e-04 | data=3.831056e-04 | mono=5.966279e-06 | slow=1.329653e-02
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p01 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.080539e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=1.233783e-03 | data=6.809670e-04 | mono=1.859802e-04 | slow=5.517653e-02
+    epoch  400 | loss=5.718858e-04 | data=4.108798e-04 | mono=3.656421e-05 | slow=1.607870e-02
+    epoch  600 | loss=4.674581e-04 | data=3.553808e-04 | mono=1.933781e-06 | slow=1.120473e-02
+    epoch  800 | loss=4.729703e-04 | data=3.865978e-04 | mono=0.000000e+00 | slow=8.636351e-03
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p03 | seed=20260425 | epochs=800
+    epoch    1 | loss=1.580379e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=2.267886e-03 | data=1.382956e-03 | mono=3.594464e-05 | slow=2.948913e-02
+    epoch  400 | loss=1.027563e-03 | data=6.698261e-04 | mono=2.883437e-05 | slow=1.191945e-02
+    epoch  600 | loss=7.520164e-04 | data=5.072624e-04 | mono=0.000000e+00 | slow=8.158335e-03
+    epoch  800 | loss=6.149388e-04 | data=4.346131e-04 | mono=8.849506e-07 | slow=6.010481e-03
+train/eval | 03_模块二_粗筛 | M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p03 | seed=20260426 | epochs=800
+    epoch    1 | loss=1.081557e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=1.282297e-03 | data=8.358425e-04 | mono=1.874943e-04 | slow=1.484671e-02
+    epoch  400 | loss=6.596255e-04 | data=4.465880e-04 | mono=8.644392e-06 | slow=7.098348e-03
+    epoch  600 | loss=5.097936e-04 | data=3.939554e-04 | mono=5.854207e-06 | slow=3.859545e-03
+    epoch  800 | loss=4.548954e-04 | data=3.772388e-04 | mono=1.119669e-06 | slow=2.587828e-03
+train/eval | 03_模块二_复筛 | M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p003 | seed=20260425 | epochs=1200
+    epoch    1 | loss=1.578122e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=1.319818e-03 | data=9.958163e-04 | mono=2.554463e-03 | slow=1.037377e-01
+    epoch  400 | loss=7.747429e-04 | data=5.021622e-04 | mono=8.662693e-04 | slow=8.941500e-02
+    epoch  600 | loss=6.181255e-04 | data=4.082328e-04 | mono=3.981432e-05 | slow=6.989695e-02
+    epoch  800 | loss=4.935314e-04 | data=3.569121e-04 | mono=0.000000e+00 | slow=4.553900e-02
+    epoch 1000 | loss=4.001526e-04 | data=3.247049e-04 | mono=9.909966e-06 | slow=2.513164e-02
+    epoch 1200 | loss=4.413832e-04 | data=3.752285e-04 | mono=2.199160e-06 | slow=2.204721e-02
+train/eval | 03_模块二_复筛 | M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p003 | seed=20260426 | epochs=1200
+    epoch    1 | loss=1.080182e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=8.467179e-04 | data=5.501513e-04 | mono=7.754641e-04 | slow=9.752521e-02
+    epoch  400 | loss=5.605271e-04 | data=3.489941e-04 | mono=1.863587e-04 | slow=7.018504e-02
+    epoch  600 | loss=4.365694e-04 | data=3.140705e-04 | mono=8.219150e-05 | slow=4.069057e-02
+    epoch  800 | loss=4.298721e-04 | data=3.698175e-04 | mono=8.654964e-06 | slow=1.999847e-02
+    epoch 1000 | loss=3.577080e-04 | data=3.105647e-04 | mono=0.000000e+00 | slow=1.571328e-02
+    epoch 1200 | loss=3.255069e-04 | data=2.848278e-04 | mono=1.232798e-06 | slow=1.355415e-02
+train/eval | 03_模块二_复筛 | M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p003 | seed=20260427 | epochs=1200
+    epoch    1 | loss=8.037999e-01 | data=8.035402e-01 | mono=2.904798e-02 | slow=3.598042e-02
+    epoch  200 | loss=9.926214e-04 | data=7.087309e-04 | mono=1.345405e-03 | slow=9.237006e-02
+    epoch  400 | loss=6.132505e-04 | data=4.018787e-04 | mono=8.213124e-05 | slow=7.031733e-02
+    epoch  600 | loss=4.490843e-04 | data=3.281687e-04 | mono=6.142847e-07 | slow=4.030353e-02
+    epoch  800 | loss=3.710985e-04 | data=2.977507e-04 | mono=0.000000e+00 | slow=2.444902e-02
+    epoch 1000 | loss=3.716445e-04 | data=3.136714e-04 | mono=0.000000e+00 | slow=1.932409e-02
+    epoch 1200 | loss=3.653563e-04 | data=3.145550e-04 | mono=0.000000e+00 | slow=1.693357e-02
+train/eval | 03_模块二_复筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p01 | seed=20260425 | epochs=1200
+    epoch    1 | loss=1.576212e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=1.838507e-03 | data=1.094171e-03 | mono=3.184439e-03 | slow=7.443212e-02
+    epoch  400 | loss=9.564856e-04 | data=6.054536e-04 | mono=6.733702e-04 | slow=3.510281e-02
+    epoch  600 | loss=6.287126e-04 | data=4.578614e-04 | mono=2.233839e-05 | slow=1.708503e-02
+    epoch  800 | loss=5.081170e-04 | data=3.813245e-04 | mono=1.113748e-05 | slow=1.267920e-02
+    epoch 1000 | loss=4.480852e-04 | data=3.481190e-04 | mono=6.597481e-07 | slow=9.996574e-03
+    epoch 1200 | loss=4.024775e-04 | data=3.265948e-04 | mono=0.000000e+00 | slow=7.588224e-03
+train/eval | 03_模块二_复筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p01 | seed=20260426 | epochs=1200
+    epoch    1 | loss=1.079959e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=1.237324e-03 | data=6.810394e-04 | mono=3.934699e-04 | slow=5.561579e-02
+    epoch  400 | loss=5.694327e-04 | data=4.098898e-04 | mono=5.426639e-05 | slow=1.594973e-02
+    epoch  600 | loss=4.678849e-04 | data=3.567553e-04 | mono=1.938010e-06 | slow=1.111079e-02
+    epoch  800 | loss=4.474394e-04 | data=3.609930e-04 | mono=1.931560e-05 | slow=8.641928e-03
+    epoch 1000 | loss=5.021624e-04 | data=4.344727e-04 | mono=1.382088e-05 | slow=6.766998e-03
+    epoch 1200 | loss=4.526090e-04 | data=3.960079e-04 | mono=7.617764e-06 | slow=5.658534e-03
+train/eval | 03_模块二_复筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p01 | seed=20260427 | epochs=1200
+    epoch    1 | loss=8.039066e-01 | data=8.035402e-01 | mono=2.904798e-02 | slow=3.598042e-02
+    epoch  200 | loss=1.358692e-03 | data=8.062230e-04 | mono=1.595448e-03 | slow=5.524191e-02
+    epoch  400 | loss=6.853339e-04 | data=4.785348e-04 | mono=8.140699e-05 | slow=2.067835e-02
+    epoch  600 | loss=5.276356e-04 | data=4.040932e-04 | mono=1.229521e-05 | slow=1.235344e-02
+    epoch  800 | loss=4.232796e-04 | data=3.387232e-04 | mono=0.000000e+00 | slow=8.455573e-03
+    epoch 1000 | loss=3.864203e-04 | data=3.230333e-04 | mono=0.000000e+00 | slow=6.338598e-03
+    epoch 1200 | loss=3.506794e-04 | data=3.010493e-04 | mono=0.000000e+00 | slow=4.962574e-03
+train/eval | 03_模块二_复筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p003 | seed=20260425 | epochs=1200
+    epoch    1 | loss=1.575627e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=1.312989e-03 | data=9.909857e-04 | mono=6.412300e-03 | slow=1.073305e-01
+    epoch  400 | loss=7.632600e-04 | data=4.912942e-04 | mono=2.760587e-03 | slow=9.065461e-02
+    epoch  600 | loss=6.105553e-04 | data=3.964748e-04 | mono=2.608198e-03 | slow=7.135969e-02
+    epoch  800 | loss=4.915221e-04 | data=3.500197e-04 | mono=2.437376e-03 | slow=4.716719e-02
+    epoch 1000 | loss=4.296153e-04 | data=3.470003e-04 | mono=1.681590e-03 | slow=2.753773e-02
+    epoch 1200 | loss=3.679853e-04 | data=2.980387e-04 | mono=9.411824e-04 | slow=2.331518e-02
+train/eval | 03_模块二_复筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p003 | seed=20260426 | epochs=1200
+    epoch    1 | loss=1.079602e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=8.453786e-04 | data=5.542630e-04 | mono=8.212479e-04 | slow=9.699889e-02
+    epoch  400 | loss=5.631553e-04 | data=3.500984e-04 | mono=7.002316e-04 | slow=7.100186e-02
+    epoch  600 | loss=4.405240e-04 | data=3.173779e-04 | mono=8.568944e-04 | slow=4.104134e-02
+    epoch  800 | loss=3.936638e-04 | data=3.283611e-04 | mono=7.091002e-04 | slow=2.176367e-02
+    epoch 1000 | loss=3.833678e-04 | data=3.316840e-04 | mono=4.324395e-04 | slow=1.722506e-02
+    epoch 1200 | loss=3.399428e-04 | data=2.988379e-04 | mono=1.481367e-04 | slow=1.369698e-02
+train/eval | 03_模块二_复筛 | M1_R2_log_cycle_replace__S1_slow_abs_0p003 | seed=20260427 | epochs=1200
+    epoch    1 | loss=8.036547e-01 | data=8.035402e-01 | mono=2.904798e-02 | slow=3.598042e-02
+    epoch  200 | loss=9.956002e-04 | data=7.060180e-04 | mono=4.724621e-03 | slow=9.650967e-02
+    epoch  400 | loss=6.147687e-04 | data=3.997676e-04 | mono=2.038966e-03 | slow=7.166348e-02
+    epoch  600 | loss=4.435609e-04 | data=3.213056e-04 | mono=1.670287e-03 | slow=4.075100e-02
+    epoch  800 | loss=3.734446e-04 | data=2.982246e-04 | mono=2.897140e-04 | slow=2.507307e-02
+    epoch 1000 | loss=3.750758e-04 | data=3.156014e-04 | mono=0.000000e+00 | slow=1.982469e-02
+    epoch 1200 | loss=3.318920e-04 | data=2.817491e-04 | mono=0.000000e+00 | slow=1.671409e-02
+train/eval | 04_最终消融实验 | T0_baseline | seed=20260425 | epochs=1600
+    epoch    1 | loss=1.033739e+00 | data=1.033737e+00
+    epoch  200 | loss=8.438489e-04 | data=7.618361e-04
+    epoch  400 | loss=4.274833e-04 | data=3.607990e-04
+    epoch  600 | loss=3.338885e-04 | data=2.850749e-04
+    epoch  800 | loss=2.806638e-04 | data=2.453234e-04
+    epoch 1000 | loss=3.766546e-04 | data=3.504643e-04
+    epoch 1200 | loss=2.222798e-04 | data=2.024972e-04
+    epoch 1400 | loss=1.803066e-04 | data=1.647438e-04
+    epoch 1600 | loss=1.586997e-04 | data=1.470987e-04
+train/eval | 04_最终消融实验 | T0_baseline | seed=20260426 | epochs=1600
+    epoch    1 | loss=1.227352e+00 | data=1.227335e+00
+    epoch  200 | loss=1.082874e-03 | data=1.016749e-03
+    epoch  400 | loss=4.789275e-04 | data=4.196410e-04
+    epoch  600 | loss=3.524134e-04 | data=3.036937e-04
+    epoch  800 | loss=2.842577e-04 | data=2.455327e-04
+    epoch 1000 | loss=2.437124e-04 | data=2.125817e-04
+    epoch 1200 | loss=2.540414e-04 | data=2.284964e-04
+    epoch 1400 | loss=1.958837e-04 | data=1.751053e-04
+    epoch 1600 | loss=1.814045e-04 | data=1.642124e-04
+train/eval | 04_最终消融实验 | T0_baseline | seed=20260427 | epochs=1600
+    epoch    1 | loss=1.155281e+00 | data=1.155265e+00
+    epoch  200 | loss=9.014797e-04 | data=8.365294e-04
+    epoch  400 | loss=4.678795e-04 | data=4.162515e-04
+    epoch  600 | loss=3.449218e-04 | data=3.056670e-04
+    epoch  800 | loss=2.733935e-04 | data=2.443145e-04
+    epoch 1000 | loss=2.282227e-04 | data=2.060536e-04
+    epoch 1200 | loss=1.921063e-04 | data=1.747204e-04
+    epoch 1400 | loss=1.827057e-04 | data=1.678836e-04
+    epoch 1600 | loss=1.664239e-04 | data=1.542731e-04
+train/eval | 04_最终消融实验 | T0_baseline | seed=20260428 | epochs=1600
+    epoch    1 | loss=1.086198e+00 | data=1.086157e+00
+    epoch  200 | loss=1.066743e-03 | data=9.767228e-04
+    epoch  400 | loss=4.914307e-04 | data=4.228820e-04
+    epoch  600 | loss=3.561286e-04 | data=3.068341e-04
+    epoch  800 | loss=3.233961e-04 | data=2.900867e-04
+    epoch 1000 | loss=2.406328e-04 | data=2.170439e-04
+    epoch 1200 | loss=2.213677e-04 | data=2.035926e-04
+    epoch 1400 | loss=2.009718e-04 | data=1.875539e-04
+    epoch 1600 | loss=1.892605e-04 | data=1.779830e-04
+train/eval | 04_最终消融实验 | T0_baseline | seed=20260429 | epochs=1600
+    epoch    1 | loss=1.125234e+00 | data=1.125231e+00
+    epoch  200 | loss=9.101109e-04 | data=8.361480e-04
+    epoch  400 | loss=4.295268e-04 | data=3.801813e-04
+    epoch  600 | loss=3.258790e-04 | data=2.923342e-04
+    epoch  800 | loss=2.619339e-04 | data=2.384842e-04
+    epoch 1000 | loss=2.185016e-04 | data=2.012784e-04
+    epoch 1200 | loss=1.996778e-04 | data=1.863790e-04
+    epoch 1400 | loss=1.683660e-04 | data=1.581497e-04
+    epoch 1600 | loss=1.520569e-04 | data=1.440402e-04
+train/eval | 04_最终消融实验 | T1_module1_only | seed=20260425 | epochs=1600
+    epoch    1 | loss=1.575376e+00 | data=1.575349e+00
+    epoch  200 | loss=9.506036e-04 | data=9.505937e-04
+    epoch  400 | loss=4.471635e-04 | data=4.471595e-04
+    epoch  600 | loss=3.389245e-04 | data=3.389221e-04
+    epoch  800 | loss=2.867795e-04 | data=2.867777e-04
+    epoch 1000 | loss=2.669106e-04 | data=2.669097e-04
+    epoch 1200 | loss=2.671935e-04 | data=2.671921e-04
+    epoch 1400 | loss=2.286129e-04 | data=2.286117e-04
+    epoch 1600 | loss=2.153624e-04 | data=2.153613e-04
+train/eval | 04_最终消融实验 | T1_module1_only | seed=20260426 | epochs=1600
+    epoch    1 | loss=1.079449e+00 | data=1.079445e+00
+    epoch  200 | loss=5.053593e-04 | data=5.052447e-04
+    epoch  400 | loss=2.887698e-04 | data=2.887188e-04
+    epoch  600 | loss=2.526258e-04 | data=2.525929e-04
+    epoch  800 | loss=2.494042e-04 | data=2.493826e-04
+    epoch 1000 | loss=3.122757e-04 | data=3.122455e-04
+    epoch 1200 | loss=2.166907e-04 | data=2.166742e-04
+    epoch 1400 | loss=2.162134e-04 | data=2.162004e-04
+    epoch 1600 | loss=2.082887e-04 | data=2.082759e-04
+train/eval | 04_最终消融实验 | T1_module1_only | seed=20260427 | epochs=1600
+    epoch    1 | loss=8.035467e-01 | data=8.035402e-01
+    epoch  200 | loss=6.555046e-04 | data=6.554493e-04
+    epoch  400 | loss=3.193078e-04 | data=3.193009e-04
+    epoch  600 | loss=2.521400e-04 | data=2.521363e-04
+    epoch  800 | loss=2.424129e-04 | data=2.424116e-04
+    epoch 1000 | loss=2.136688e-04 | data=2.136688e-04
+    epoch 1200 | loss=3.352683e-04 | data=3.352683e-04
+    epoch 1400 | loss=1.725651e-04 | data=1.725651e-04
+    epoch 1600 | loss=1.376188e-04 | data=1.376188e-04
+train/eval | 04_最终消融实验 | T1_module1_only | seed=20260428 | epochs=1600
+    epoch    1 | loss=1.021955e+00 | data=1.021946e+00
+    epoch  200 | loss=7.694798e-04 | data=7.694746e-04
+    epoch  400 | loss=3.520077e-04 | data=3.520031e-04
+    epoch  600 | loss=2.680813e-04 | data=2.680769e-04
+    epoch  800 | loss=2.286140e-04 | data=2.286100e-04
+    epoch 1000 | loss=2.143970e-04 | data=2.143939e-04
+    epoch 1200 | loss=1.848423e-04 | data=1.848398e-04
+    epoch 1400 | loss=1.528047e-04 | data=1.528025e-04
+    epoch 1600 | loss=1.396634e-04 | data=1.396614e-04
+train/eval | 04_最终消融实验 | T1_module1_only | seed=20260429 | epochs=1600
+    epoch    1 | loss=1.350049e+00 | data=1.350039e+00
+    epoch  200 | loss=6.051644e-04 | data=6.051391e-04
+    epoch  400 | loss=3.439207e-04 | data=3.439153e-04
+    epoch  600 | loss=2.923757e-04 | data=2.923708e-04
+    epoch  800 | loss=3.494240e-04 | data=3.494212e-04
+    epoch 1000 | loss=2.390573e-04 | data=2.390560e-04
+    epoch 1200 | loss=2.357787e-04 | data=2.357778e-04
+    epoch 1400 | loss=2.290393e-04 | data=2.290387e-04
+    epoch 1600 | loss=2.327832e-04 | data=2.327829e-04
+train/eval | 04_最终消融实验 | T2_module2_only | seed=20260425 | epochs=1600
+    epoch    1 | loss=1.034136e+00 | data=1.033737e+00 | mono=9.685241e-02 | slow=3.967421e-02
+    epoch  200 | loss=1.915445e-03 | data=8.557749e-04 | mono=9.066250e-05 | slow=9.750928e-02
+    epoch  400 | loss=1.080029e-03 | data=4.520656e-04 | mono=9.049333e-06 | slow=5.627943e-02
+    epoch  600 | loss=9.526112e-04 | data=4.493965e-04 | mono=0.000000e+00 | slow=4.499824e-02
+    epoch  800 | loss=8.212323e-04 | data=3.811499e-04 | mono=0.000000e+00 | slow=3.973025e-02
+    epoch 1000 | loss=7.056484e-04 | data=3.178473e-04 | mono=0.000000e+00 | slow=3.546209e-02
+    epoch 1200 | loss=8.240888e-04 | data=4.677098e-04 | mono=0.000000e+00 | slow=3.308356e-02
+    epoch 1400 | loss=8.125701e-04 | data=4.898895e-04 | mono=0.000000e+00 | slow=3.032282e-02
+    epoch 1600 | loss=5.713687e-04 | data=2.938730e-04 | mono=0.000000e+00 | slow=2.623389e-02
+train/eval | 04_最终消融实验 | T2_module2_only | seed=20260426 | epochs=1600
+    epoch    1 | loss=1.227596e+00 | data=1.227335e+00 | mono=1.189930e-01 | slow=2.442908e-02
+    epoch  200 | loss=2.002741e-03 | data=1.091517e-03 | mono=2.311867e-04 | slow=8.457673e-02
+    epoch  400 | loss=1.179587e-03 | data=5.213211e-04 | mono=3.037590e-05 | slow=6.026935e-02
+    epoch  600 | loss=9.224120e-04 | data=4.010231e-04 | mono=0.000000e+00 | slow=4.748841e-02
+    epoch  800 | loss=8.275395e-04 | data=3.716707e-04 | mono=0.000000e+00 | slow=4.175741e-02
+    epoch 1000 | loss=7.695291e-04 | data=3.593194e-04 | mono=0.000000e+00 | slow=3.789844e-02
+    epoch 1200 | loss=6.741806e-04 | data=3.141084e-04 | mono=0.000000e+00 | slow=3.347154e-02
+    epoch 1400 | loss=6.023668e-04 | data=2.964322e-04 | mono=0.000000e+00 | slow=2.852715e-02
+    epoch 1600 | loss=6.061442e-04 | data=3.734980e-04 | mono=0.000000e+00 | slow=2.155449e-02
+train/eval | 04_最终消融实验 | T2_module2_only | seed=20260427 | epochs=1600
+    epoch    1 | loss=1.155574e+00 | data=1.155265e+00 | mono=1.851422e-01 | slow=2.929192e-02
+    epoch  200 | loss=1.773092e-03 | data=9.263118e-04 | mono=1.710016e-04 | slow=7.822055e-02
+    epoch  400 | loss=1.173289e-03 | data=5.182046e-04 | mono=7.437708e-05 | slow=6.062612e-02
+    epoch  600 | loss=9.065053e-04 | data=3.981261e-04 | mono=4.900533e-06 | slow=4.699124e-02
+    epoch  800 | loss=8.138217e-04 | data=3.502950e-04 | mono=0.000000e+00 | slow=4.321787e-02
+    epoch 1000 | loss=8.127355e-04 | data=3.834304e-04 | mono=0.000000e+00 | slow=4.038594e-02
+    epoch 1200 | loss=7.455350e-04 | data=3.447728e-04 | mono=0.000000e+00 | slow=3.797590e-02
+    epoch 1400 | loss=6.549946e-04 | data=2.927998e-04 | mono=0.000000e+00 | slow=3.452589e-02
+    epoch 1600 | loss=6.620324e-04 | data=3.441283e-04 | mono=0.000000e+00 | slow=3.044588e-02
+train/eval | 04_最终消融实验 | T2_module2_only | seed=20260428 | epochs=1600
+    epoch    1 | loss=1.086770e+00 | data=1.086157e+00 | mono=3.443553e-01 | slow=5.721883e-02
+    epoch  200 | loss=1.902121e-03 | data=1.030520e-03 | mono=1.182133e-04 | slow=7.843727e-02
+    epoch  400 | loss=1.049050e-03 | data=4.779714e-04 | mono=0.000000e+00 | slow=5.071367e-02
+    epoch  600 | loss=8.662876e-04 | data=3.828148e-04 | mono=0.000000e+00 | slow=4.367670e-02
+    epoch  800 | loss=9.028225e-04 | data=4.744102e-04 | mono=0.000000e+00 | slow=3.949131e-02
+    epoch 1000 | loss=7.419995e-04 | data=3.515191e-04 | mono=0.000000e+00 | slow=3.654305e-02
+    epoch 1200 | loss=6.914160e-04 | data=3.316019e-04 | mono=0.000000e+00 | slow=3.411435e-02
+    epoch 1400 | loss=6.072529e-04 | data=2.874252e-04 | mono=0.000000e+00 | slow=3.054041e-02
+    epoch 1600 | loss=6.347107e-04 | data=3.606556e-04 | mono=0.000000e+00 | slow=2.623108e-02
+train/eval | 04_最终消融实验 | T2_module2_only | seed=20260429 | epochs=1600
+    epoch    1 | loss=1.125623e+00 | data=1.125231e+00 | mono=2.566502e-02 | slow=3.893284e-02
+    epoch  200 | loss=2.058199e-03 | data=8.788580e-04 | mono=1.240590e-03 | slow=1.105827e-01
+    epoch  400 | loss=1.074528e-03 | data=4.420544e-04 | mono=1.625845e-04 | slow=5.876286e-02
+    epoch  600 | loss=8.442418e-04 | data=3.741099e-04 | mono=0.000000e+00 | slow=4.354488e-02
+    epoch  800 | loss=7.525646e-04 | data=3.726892e-04 | mono=0.000000e+00 | slow=3.525705e-02
+    epoch 1000 | loss=6.179479e-04 | data=3.299064e-04 | mono=0.000000e+00 | slow=2.649500e-02
+    epoch 1200 | loss=6.511426e-04 | data=4.272434e-04 | mono=0.000000e+00 | slow=2.045793e-02
+    epoch 1400 | loss=5.225108e-04 | data=3.244478e-04 | mono=0.000000e+00 | slow=1.816585e-02
+    epoch 1600 | loss=5.454520e-04 | data=3.629840e-04 | mono=0.000000e+00 | slow=1.680373e-02
+train/eval | 04_最终消融实验 | T3_module1_plus_module2 | seed=20260425 | epochs=1600
+    epoch    1 | loss=1.576212e+00 | data=1.575349e+00 | mono=4.989506e-01 | slow=8.360220e-02
+    epoch  200 | loss=1.838507e-03 | data=1.094171e-03 | mono=3.184439e-03 | slow=7.443212e-02
+    epoch  400 | loss=9.564856e-04 | data=6.054536e-04 | mono=6.733702e-04 | slow=3.510281e-02
+    epoch  600 | loss=6.287126e-04 | data=4.578614e-04 | mono=2.233839e-05 | slow=1.708503e-02
+    epoch  800 | loss=5.081170e-04 | data=3.813245e-04 | mono=1.113748e-05 | slow=1.267920e-02
+    epoch 1000 | loss=4.480852e-04 | data=3.481190e-04 | mono=6.597481e-07 | slow=9.996574e-03
+    epoch 1200 | loss=4.024775e-04 | data=3.265948e-04 | mono=0.000000e+00 | slow=7.588224e-03
+    epoch 1400 | loss=3.744871e-04 | data=3.100105e-04 | mono=0.000000e+00 | slow=6.447632e-03
+    epoch 1600 | loss=3.555988e-04 | data=3.054303e-04 | mono=0.000000e+00 | slow=5.016827e-03
+train/eval | 04_最终消融实验 | T3_module1_plus_module2 | seed=20260426 | epochs=1600
+    epoch    1 | loss=1.079959e+00 | data=1.079445e+00 | mono=1.159691e-01 | slow=5.093428e-02
+    epoch  200 | loss=1.237324e-03 | data=6.810394e-04 | mono=3.934699e-04 | slow=5.561579e-02
+    epoch  400 | loss=5.694327e-04 | data=4.098898e-04 | mono=5.426639e-05 | slow=1.594973e-02
+    epoch  600 | loss=4.678849e-04 | data=3.567553e-04 | mono=1.938010e-06 | slow=1.111079e-02
+    epoch  800 | loss=4.474394e-04 | data=3.609930e-04 | mono=1.931560e-05 | slow=8.641928e-03
+    epoch 1000 | loss=5.021624e-04 | data=4.344727e-04 | mono=1.382088e-05 | slow=6.766998e-03
+    epoch 1200 | loss=4.526090e-04 | data=3.960079e-04 | mono=7.617764e-06 | slow=5.658534e-03
+    epoch 1400 | loss=3.396496e-04 | data=2.887351e-04 | mono=7.697061e-07 | slow=5.090709e-03
+    epoch 1600 | loss=3.259291e-04 | data=2.836570e-04 | mono=0.000000e+00 | slow=4.226693e-03
+train/eval | 04_最终消融实验 | T3_module1_plus_module2 | seed=20260427 | epochs=1600
+    epoch    1 | loss=8.039066e-01 | data=8.035402e-01 | mono=2.904798e-02 | slow=3.598042e-02
+    epoch  200 | loss=1.358692e-03 | data=8.062230e-04 | mono=1.595448e-03 | slow=5.524191e-02
+    epoch  400 | loss=6.853339e-04 | data=4.785348e-04 | mono=8.140699e-05 | slow=2.067835e-02
+    epoch  600 | loss=5.276356e-04 | data=4.040932e-04 | mono=1.229521e-05 | slow=1.235344e-02
+    epoch  800 | loss=4.232796e-04 | data=3.387232e-04 | mono=0.000000e+00 | slow=8.455573e-03
+    epoch 1000 | loss=3.864203e-04 | data=3.230333e-04 | mono=0.000000e+00 | slow=6.338598e-03
+    epoch 1200 | loss=3.506794e-04 | data=3.010493e-04 | mono=0.000000e+00 | slow=4.962574e-03
+    epoch 1400 | loss=4.332131e-04 | data=3.901392e-04 | mono=0.000000e+00 | slow=4.306863e-03
+    epoch 1600 | loss=3.162972e-04 | data=2.837620e-04 | mono=0.000000e+00 | slow=3.253236e-03
+train/eval | 04_最终消融实验 | T3_module1_plus_module2 | seed=20260428 | epochs=1600
+    epoch    1 | loss=1.022865e+00 | data=1.021946e+00 | mono=8.084305e-02 | slow=9.097645e-02
+    epoch  200 | loss=1.579134e-03 | data=9.461752e-04 | mono=3.861418e-03 | slow=6.329530e-02
+    epoch  400 | loss=7.684876e-04 | data=5.068614e-04 | mono=7.514150e-06 | slow=2.616227e-02
+    epoch  600 | loss=5.244783e-04 | data=3.956740e-04 | mono=0.000000e+00 | slow=1.288016e-02
+    epoch  800 | loss=4.421056e-04 | data=3.447614e-04 | mono=0.000000e+00 | slow=9.734251e-03
+    epoch 1000 | loss=3.963656e-04 | data=3.224782e-04 | mono=0.000000e+00 | slow=7.388616e-03
+    epoch 1200 | loss=4.135226e-04 | data=3.521237e-04 | mono=0.000000e+00 | slow=6.139813e-03
+    epoch 1400 | loss=4.035026e-04 | data=3.537942e-04 | mono=0.000000e+00 | slow=4.970822e-03
+    epoch 1600 | loss=3.437032e-04 | data=3.031023e-04 | mono=0.000000e+00 | slow=4.060092e-03
+train/eval | 04_最终消融实验 | T3_module1_plus_module2 | seed=20260429 | epochs=1600
+    epoch    1 | loss=1.351195e+00 | data=1.350039e+00 | mono=2.495717e-01 | slow=1.145986e-01
+    epoch  200 | loss=1.061722e-03 | data=7.362096e-04 | mono=5.873344e-04 | slow=3.254729e-02
+    epoch  400 | loss=6.584490e-04 | data=4.876812e-04 | mono=4.448542e-05 | slow=1.707447e-02
+    epoch  600 | loss=5.171194e-04 | data=3.979699e-04 | mono=3.097855e-07 | slow=1.191309e-02
+    epoch  800 | loss=4.300903e-04 | data=3.503751e-04 | mono=0.000000e+00 | slow=7.969933e-03
+    epoch 1000 | loss=4.364079e-04 | data=3.732712e-04 | mono=0.000000e+00 | slow=6.312371e-03
+    epoch 1200 | loss=4.885023e-04 | data=4.353438e-04 | mono=0.000000e+00 | slow=5.315171e-03
+    epoch 1400 | loss=4.108453e-04 | data=3.648720e-04 | mono=0.000000e+00 | slow=4.596649e-03
+    epoch 1600 | loss=3.321927e-04 | data=2.911172e-04 | mono=0.000000e+00 | slow=4.106835e-03

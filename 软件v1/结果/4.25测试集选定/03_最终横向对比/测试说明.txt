@@ -1,0 +1,11 @@
+测试说明
+========================================================================
+测试集: Run4, Run28, Run25, Run11。
+epochs=1600; fixed actual_step cap=250。
+最终横向排序:
+  Transformer_R1+slow: life_abs_error=666.5, pressure_MAE=2.873, wear_MAE=0.0598
+  LSTM: life_abs_error=826.0, pressure_MAE=2.137, wear_MAE=0.0532
+  Transformer: life_abs_error=1134.1, pressure_MAE=2.513, wear_MAE=0.0697
+  GRU: life_abs_error=1134.4, pressure_MAE=2.400, wear_MAE=0.0696
+  FNN: life_abs_error=1370.0, pressure_MAE=4.443, wear_MAE=0.0813
+  1D-CNN: life_abs_error=1441.7, pressure_MAE=4.953, wear_MAE=0.0999

@@ -1,0 +1,17 @@
+结果说明与分析
+========================================================================
+排序:
+1. M1_R3_log_cycle_keep__S0_no_shape_loss: mean_life_abs_error=3047.9, std=0.0, max=7677.1, delta_vs_baseline=0.0
+2. M1_R3_log_cycle_keep__S1_slow_abs_0p003: mean_life_abs_error=3072.9, std=0.0, max=7767.6, delta_vs_baseline=25.0
+3. M1_0_5d_baseline__S1_slow_abs_0p03: mean_life_abs_error=3081.8, std=0.0, max=5133.3, delta_vs_baseline=33.9
+4. M1_0_5d_baseline__S2_temporal_mono_plus_slow_abs_0p03: mean_life_abs_error=3108.1, std=0.0, max=5200.1, delta_vs_baseline=60.2
+5. M1_0_5d_baseline__S1_slow_abs_0p01: mean_life_abs_error=3128.5, std=0.0, max=5108.0, delta_vs_baseline=80.6
+6. M1_0_5d_baseline__S2_temporal_mono_plus_slow_abs_0p01: mean_life_abs_error=3130.8, std=0.0, max=5133.2, delta_vs_baseline=82.9
+7. M1_0_5d_baseline__S2_temporal_mono_plus_slow_abs_0p003: mean_life_abs_error=3136.0, std=0.0, max=5134.6, delta_vs_baseline=88.1
+8. M1_0_5d_baseline__S1_slow_abs_0p003: mean_life_abs_error=3137.5, std=0.0, max=5086.7, delta_vs_baseline=89.6
+9. M1_0_5d_baseline__S0_no_shape_loss: mean_life_abs_error=3145.4, std=0.0, max=5076.6, delta_vs_baseline=97.5
+10. M1_R3_log_cycle_keep__S1_slow_abs_0p01: mean_life_abs_error=3151.0, std=0.0, max=8021.3, delta_vs_baseline=103.1
+11. M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p003: mean_life_abs_error=3164.0, std=0.0, max=8071.1, delta_vs_baseline=116.1
+12. M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p01: mean_life_abs_error=3221.3, std=0.0, max=8280.9, delta_vs_baseline=173.4
+13. M1_R3_log_cycle_keep__S1_slow_abs_0p03: mean_life_abs_error=3243.3, std=0.0, max=8455.6, delta_vs_baseline=195.4
+14. M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p03: mean_life_abs_error=3334.1, std=0.0, max=8681.7, delta_vs_baseline=286.2

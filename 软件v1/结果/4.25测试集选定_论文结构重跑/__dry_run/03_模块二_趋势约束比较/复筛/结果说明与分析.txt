@@ -1,0 +1,6 @@
+结果说明与分析
+========================================================================
+排序:
+1. M1_R3_log_cycle_keep__S0_no_shape_loss: mean_life_abs_error=3047.9, std=0.0, max=7677.1, delta_vs_baseline=0.0
+2. M1_R3_log_cycle_keep__S1_slow_abs_0p003: mean_life_abs_error=3072.9, std=0.0, max=7767.6, delta_vs_baseline=25.0
+3. M1_0_5d_baseline__S1_slow_abs_0p03: mean_life_abs_error=3081.8, std=0.0, max=5133.3, delta_vs_baseline=33.9

@@ -1,0 +1,2 @@
+C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\软件v1\工具和杂项\4.25测试集选定_论文结构重跑\common_fixed_split.py:950: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+  fig.tight_layout()

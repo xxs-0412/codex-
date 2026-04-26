@@ -1,0 +1,5 @@
+结果说明与分析
+========================================================================
+排序:
+1. M1_R3_log_cycle_keep: mean_life_abs_error=845.4, std=281.6, max=2200.5, delta_vs_baseline=-66.7
+2. M1_R2_log_cycle_replace: mean_life_abs_error=912.2, std=202.5, max=2635.5, delta_vs_baseline=0.0

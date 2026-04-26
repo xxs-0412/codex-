@@ -1,0 +1,2 @@
+﻿model,seed,epochs,feature_variant,shape_variant,training_case_count,training_sample_count,pressure_rmse,pressure_mae,pressure_mape
+Enhanced Transformer,20260425,1600,M1_R2_log_cycle_replace,S1_slow_abs_0p01,30,2152,1.3784526586532593,0.8718801736831665,0.009597491472959518

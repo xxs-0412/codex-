@@ -1,0 +1,19 @@
+{
+  "round_id": "seq12_base",
+  "description": "seq_len=12 基础配置",
+  "seq_len": 12,
+  "d_model": 32,
+  "nhead": 4,
+  "num_layers": 2,
+  "dim_ff": 64,
+  "dropout": 0.0,
+  "epochs": 1200,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-06,
+  "grad_clip_norm": null,
+  "use_validation": false,
+  "lr_patience": 80,
+  "lr_factor": 0.5,
+  "es_patience": 220,
+  "es_min_delta": 1e-05
+}

@@ -1,0 +1,8 @@
+﻿candidate,test_files,baseline_transformer_rank,baseline_transformer_life_error,enhanced_transformer_rank,enhanced_transformer_life_error,enhanced_best_model,enhanced_best_life_error,hit_target,epochs
+D13_Run20,Run4.csv;Run8.csv;Run11.csv;Run20.csv,4,1069.3146428082564,2,792.0788135780858,GRU,447.9062980506724,0,400
+D13_Run28,Run4.csv;Run8.csv;Run11.csv;Run28.csv,5,2422.023687617747,1,417.7416571921194,Transformer,417.7416571921194,0,400
+D13_Run23,Run4.csv;Run8.csv;Run11.csv;Run23.csv,4,1115.6672096754182,3,1102.6676121473847,GRU,619.3127158147117,0,400
+D13_Run27,Run4.csv;Run8.csv;Run11.csv;Run27.csv,1,1036.8308346104322,1,893.2282409052841,Transformer,893.2282409052841,0,400
+D13_Run9,Run4.csv;Run8.csv;Run11.csv;Run9.csv,4,2140.9536441141454,2,600.6370279148005,LSTM,536.8535478585527,0,400
+D13_Run10,Run4.csv;Run8.csv;Run11.csv;Run10.csv,5,4723.835451459481,2,2062.2030999981807,1D-CNN,1175.371459867939,0,400
+D13_Run21,Run4.csv;Run8.csv;Run11.csv;Run21.csv,2,4268.626999786644,3,3855.8855361476544,LSTM,2408.7453711986736,0,400

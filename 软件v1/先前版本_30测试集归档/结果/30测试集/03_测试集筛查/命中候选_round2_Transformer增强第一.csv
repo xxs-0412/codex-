@@ -1,0 +1,2 @@
+﻿candidate,test_files,baseline_transformer_rank,baseline_transformer_life_error,enhanced_transformer_rank,enhanced_transformer_life_error,enhanced_best_model,enhanced_best_life_error,hit_target,epochs
+R2_Run16_Run30_Run24_Run29,Run16.csv;Run30.csv;Run24.csv;Run29.csv,2,964.0852742015295,1,820.751202192353,Transformer,820.751202192353,1,300

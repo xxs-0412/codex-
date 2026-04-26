@@ -1,0 +1,8 @@
+测试说明
+========================================================================
+正式测试集: Run4 / Run28 / Run25 / Run11。
+训练集: 其余 eligible runs。
+CUDA/设备信息:
+  Device: cpu
+  Torch version: 2.3.1+cpu
+  CUDA available: False

@@ -1,0 +1,7 @@
+结果说明与分析
+========================================================================
+排序:
+1. M1_R2_log_cycle_replace: mean_life_abs_error=764.0, std=61.7, max=1199.4, delta_vs_baseline=-617.0
+2. M1_R3_log_cycle_keep: mean_life_abs_error=800.8, std=425.0, max=2212.3, delta_vs_baseline=-580.2
+3. M1_R1_static_ratio: mean_life_abs_error=1028.0, std=61.1, max=1767.8, delta_vs_baseline=-353.0
+4. M1_0_5d_baseline: mean_life_abs_error=1381.0, std=52.5, max=3907.9, delta_vs_baseline=0.0

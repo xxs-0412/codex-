@@ -1,0 +1,127 @@
+Device: cuda
+Torch version: 2.7.0+cu128
+CUDA available: True
+CUDA device index: 0
+CUDA device name: NVIDIA GeForce RTX 5070 Ti
+CUDA capability: 12.0
+CUDA total memory (GB): 15.92
+30测试集 基准测试 seq12 步长对照
+  seq_len=12, epochs=1200
+  split=C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\软件v1\数据快照\30测试集\30测试集划分清单.csv
+  step modes: 默认步长, 固定250
+
+Train runs: 26
+Test runs: 4
+  test | Run30.xlsx           | life=   23723.8 | native_step=435.0
+  test | Run11.xlsx           | life=   23918.7 | native_step=326.0
+  test | Run4.xlsx            | life=   38723.0 | native_step=326.0
+  test | Run8.xlsx            | life=   41489.8 | native_step=652.0
+
+Training model once on 26-run train pool: FNN
+    epoch    1 | loss=1.019106e+00 | data=1.019106e+00
+    epoch  200 | loss=1.419996e-03 | data=1.385255e-03
+    epoch  400 | loss=5.973135e-04 | data=5.643452e-04
+    epoch  600 | loss=4.216585e-04 | data=3.944664e-04
+    epoch  800 | loss=3.421610e-04 | data=3.199816e-04
+    epoch 1000 | loss=2.987376e-04 | data=2.821240e-04
+    epoch 1200 | loss=2.770103e-04 | data=2.647172e-04
+evaluate | mode=默认步长 | test=Run30.xlsx | model=FNN
+evaluate | mode=固定250 | test=Run30.xlsx | model=FNN
+evaluate | mode=默认步长 | test=Run11.xlsx | model=FNN
+evaluate | mode=固定250 | test=Run11.xlsx | model=FNN
+evaluate | mode=默认步长 | test=Run4.xlsx | model=FNN
+evaluate | mode=固定250 | test=Run4.xlsx | model=FNN
+evaluate | mode=默认步长 | test=Run8.xlsx | model=FNN
+evaluate | mode=固定250 | test=Run8.xlsx | model=FNN
+Training model once on 26-run train pool: GRU
+    epoch    1 | loss=1.040571e+00 | data=1.040569e+00
+    epoch  200 | loss=5.920568e-03 | data=5.878587e-03
+    epoch  400 | loss=2.248802e-03 | data=2.173336e-03
+    epoch  600 | loss=1.357780e-03 | data=1.283590e-03
+    epoch  800 | loss=9.019148e-04 | data=8.323621e-04
+    epoch 1000 | loss=6.840543e-04 | data=6.171850e-04
+    epoch 1200 | loss=5.772306e-04 | data=5.128874e-04
+evaluate | mode=默认步长 | test=Run30.xlsx | model=GRU
+evaluate | mode=固定250 | test=Run30.xlsx | model=GRU
+evaluate | mode=默认步长 | test=Run11.xlsx | model=GRU
+evaluate | mode=固定250 | test=Run11.xlsx | model=GRU
+evaluate | mode=默认步长 | test=Run4.xlsx | model=GRU
+evaluate | mode=固定250 | test=Run4.xlsx | model=GRU
+evaluate | mode=默认步长 | test=Run8.xlsx | model=GRU
+evaluate | mode=固定250 | test=Run8.xlsx | model=GRU
+Training model once on 26-run train pool: LSTM
+    epoch    1 | loss=9.271969e-01 | data=9.271939e-01
+    epoch  200 | loss=3.185102e-03 | data=3.142643e-03
+    epoch  400 | loss=1.008370e-03 | data=9.462796e-04
+    epoch  600 | loss=6.377102e-04 | data=5.746582e-04
+    epoch  800 | loss=5.215683e-04 | data=4.615708e-04
+    epoch 1000 | loss=4.549484e-04 | data=4.012572e-04
+    epoch 1200 | loss=4.082041e-04 | data=3.627300e-04
+evaluate | mode=默认步长 | test=Run30.xlsx | model=LSTM
+evaluate | mode=固定250 | test=Run30.xlsx | model=LSTM
+evaluate | mode=默认步长 | test=Run11.xlsx | model=LSTM
+evaluate | mode=固定250 | test=Run11.xlsx | model=LSTM
+evaluate | mode=默认步长 | test=Run4.xlsx | model=LSTM
+evaluate | mode=固定250 | test=Run4.xlsx | model=LSTM
+evaluate | mode=默认步长 | test=Run8.xlsx | model=LSTM
+evaluate | mode=固定250 | test=Run8.xlsx | model=LSTM
+Training model once on 26-run train pool: 1D-CNN
+    epoch    1 | loss=1.014427e+00 | data=1.014426e+00
+    epoch  200 | loss=1.333545e-03 | data=1.262600e-03
+    epoch  400 | loss=5.905504e-04 | data=5.288715e-04
+    epoch  600 | loss=4.122880e-04 | data=3.630755e-04
+    epoch  800 | loss=3.491391e-04 | data=3.077403e-04
+    epoch 1000 | loss=3.051107e-04 | data=2.688669e-04
+    epoch 1200 | loss=2.764022e-04 | data=2.445246e-04
+evaluate | mode=默认步长 | test=Run30.xlsx | model=1D-CNN
+evaluate | mode=固定250 | test=Run30.xlsx | model=1D-CNN
+evaluate | mode=默认步长 | test=Run11.xlsx | model=1D-CNN
+evaluate | mode=固定250 | test=Run11.xlsx | model=1D-CNN
+evaluate | mode=默认步长 | test=Run4.xlsx | model=1D-CNN
+evaluate | mode=固定250 | test=Run4.xlsx | model=1D-CNN
+evaluate | mode=默认步长 | test=Run8.xlsx | model=1D-CNN
+evaluate | mode=固定250 | test=Run8.xlsx | model=1D-CNN
+Training model once on 26-run train pool: Transformer
+    epoch    1 | loss=1.111037e+00 | data=1.111029e+00
+    epoch  200 | loss=1.031033e-03 | data=9.707113e-04
+    epoch  400 | loss=4.229512e-04 | data=3.787184e-04
+    epoch  600 | loss=3.335651e-04 | data=3.018234e-04
+    epoch  800 | loss=2.899883e-04 | data=2.672328e-04
+    epoch 1000 | loss=2.667321e-04 | data=2.488875e-04
+    epoch 1200 | loss=2.410835e-04 | data=2.273137e-04
+evaluate | mode=默认步长 | test=Run30.xlsx | model=Transformer
+evaluate | mode=固定250 | test=Run30.xlsx | model=Transformer
+evaluate | mode=默认步长 | test=Run11.xlsx | model=Transformer
+evaluate | mode=固定250 | test=Run11.xlsx | model=Transformer
+evaluate | mode=默认步长 | test=Run4.xlsx | model=Transformer
+evaluate | mode=固定250 | test=Run4.xlsx | model=Transformer
+evaluate | mode=默认步长 | test=Run8.xlsx | model=Transformer
+evaluate | mode=固定250 | test=Run8.xlsx | model=Transformer
+
+========================================================================
+seq12 默认步长 / 固定250 基准测试完成
+========================================================================
+
+[默认步长]
+      model  mean_pressure_mae  mean_pressure_rmse  mean_pressure_mape  mean_wear_mae_um  mean_life_abs_error  median_life_abs_error  mean_life_rel_error  max_life_abs_error  min_life_abs_error  mean_native_actual_step  mean_used_actual_step  step_capped_count  life_error_win_count
+     1D-CNN           4.992270            5.779421            0.038858          0.036695           418.083786             418.501461             0.015457          711.609672          123.722549                   434.75                 434.75                  0                     3
+        GRU           3.262454            3.606006            0.025895          0.053292           779.671004             836.860146             0.026924         1046.863748          398.099978                   434.75                 434.75                  0                     0
+       LSTM           3.557631            3.803397            0.025931          0.054806           888.713985            1037.401909             0.030778         1330.344658          149.707463                   434.75                 434.75                  0                     0
+Transformer           2.276907            2.629368            0.018230          0.052266           891.315574             784.040063             0.027982         1412.575782          584.606387                   434.75                 434.75                  0                     1
+        FNN           5.348724            6.256115            0.035293          0.142726          2509.918770            2004.735697             0.074622         4737.395136         1292.808552                   434.75                 434.75                  0                     0
+
+[固定250]
+      model  mean_pressure_mae  mean_pressure_rmse  mean_pressure_mape  mean_wear_mae_um  mean_life_abs_error  median_life_abs_error  mean_life_rel_error  max_life_abs_error  min_life_abs_error  mean_native_actual_step  mean_used_actual_step  step_capped_count  life_error_win_count
+       LSTM           3.557631            3.803397            0.025931          0.035846           477.519257             388.836557             0.019184         1076.038940           56.364973                   434.75                  250.0                  4                     1
+        GRU           3.262454            3.606006            0.025895          0.040313           491.703008             462.287280             0.018634          906.356220          135.881253                   434.75                  250.0                  4                     0
+     1D-CNN           4.992270            5.779421            0.038858          0.048216           657.737251             379.101027             0.019258         1856.634170           16.112782                   434.75                  250.0                  4                     3
+Transformer           2.276907            2.629368            0.018230          0.048659           855.219431             817.902835             0.027388         1117.550682          667.521371                   434.75                  250.0                  4                     0
+        FNN           5.348724            6.256115            0.035293          0.135842          2394.309468            1814.660357             0.071402         4710.885664         1237.031492                   434.75                  250.0                  4                     0
+
+[固定250 - 默认步长]
+      model  default_mean_life_abs_error  fixed250_mean_life_abs_error  fixed250_minus_default_life_abs_error  fixed250_life_error_change_pct  default_mean_wear_mae_um  fixed250_mean_wear_mae_um  fixed250_minus_default_wear_mae_um  mean_pressure_mae
+       LSTM                   888.713985                    477.519257                            -411.194728                       -0.462685                  0.054806                   0.035846                           -0.018960           3.557631
+        GRU                   779.671004                    491.703008                            -287.967996                       -0.369346                  0.053292                   0.040313                           -0.012979           3.262454
+        FNN                  2509.918770                   2394.309468                            -115.609303                       -0.046061                  0.142726                   0.135842                           -0.006884           5.348724
+Transformer                   891.315574                    855.219431                             -36.096143                       -0.040498                  0.052266                   0.048659                           -0.003607           2.276907
+     1D-CNN                   418.083786                    657.737251                             239.653466                        0.573219                  0.036695                   0.048216                            0.011520           4.992270

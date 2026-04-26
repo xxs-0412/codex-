@@ -1,0 +1,24 @@
+图表检查与美化说明
+========================================================================
+一、检查结论
+- 原始结果图已生成，但日志中出现 tight_layout 排版警告，说明部分图存在标题/坐标轴/标签空间不足风险。
+- 为避免论文插图出现文字拥挤、图例压住数据、长标签重叠等问题，已基于正式 CSV 重新生成 `论文图表_美化版`。
+- 新图统一使用更大的画布、统一配色、mean ± std 误差棒、较少但清晰的数值标注，并同时输出 PNG 与 SVG。
+- 中文字体优先使用 Microsoft YaHei / SimHei；美化版标题和坐标轴多采用英文短标签，进一步降低乱码风险。
+
+二、推荐用于论文的图
+- Fig1_baseline_model_comparison：五模型基准对比。
+- Fig2b_module1_refine_top2：模块一 top2 复筛对比。
+- Fig3b_module2_refine：模块二复筛对比。
+- Fig4_ablation_mean_std：最终四格消融实验。
+- Fig5_final_comparison：最终横向对比。
+- Fig6_final_per_run_error_heatmap：各测试工况误差热力图，可作为补充图或分析图。
+
+三、关键实验结论快照
+- 模块一 top2: M1_R3_log_cycle_keep, M1_R2_log_cycle_replace。
+- 模块二最佳组合: M1_R2_log_cycle_replace__S1_slow_abs_0p01；特征=M1_R2_log_cycle_replace；shape=S1_slow_abs_0p01。
+- 最终横向对比最优: Enhanced Transformer，mean_life_abs_error=607.3。
+- 追加 seed 判断: needs_10_seed_extension=False；advantage=285.5；threshold=175.1。
+
+四、文件位置
+- 美化图目录: C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\软件v1\结果\4.25测试集选定_论文结构重跑\论文图表_美化版

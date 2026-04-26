@@ -1,0 +1,22 @@
+实验方案
+============================================================
+实验名称: 30测试集 基准测试 seq12 步长对照 - 默认步长
+测试日期: 2026-04-24
+数据源: C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\软件v1\数据快照\完整30run_4.24\处理后数据
+测试集清单: C:\Users\28382\Desktop\Research on the Wear Life Prediction of Coated Spherical Plain Bearings\软件v1\数据快照\30测试集\30测试集划分清单.csv
+测试集 run: Run30.xlsx, Run11.xlsx, Run4.xlsx, Run8.xlsx
+训练集数量: 26
+测试集数量: 4
+seq_len: 12
+epochs: 1200
+rollout步长口径: 每个测试 run 的 native median actual_cycle step
+
+实验目的:
+  在完整 30 组数据的新固定测试集 Run4 / Run8 / Run11 / Run30 上，重新建立五模型 seq_len=12 基准；同时比较默认步长与固定250步长对闭环寿命预测的影响。
+
+公平性设计:
+  父级脚本只训练每个模型一次，然后用同一组模型权重分别评估默认步长和固定250，避免两次训练随机波动影响步长对比。
+  固定250只改变闭环 rollout 和磨损积分步长，不对训练集原始序列做重采样。
+
+模型范围:
+  FNN / GRU / LSTM / 1D-CNN / Transformer。

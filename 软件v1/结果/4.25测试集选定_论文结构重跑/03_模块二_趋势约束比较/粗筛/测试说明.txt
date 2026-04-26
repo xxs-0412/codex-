@@ -1,0 +1,12 @@
+测试说明
+========================================================================
+正式测试集: Run4 / Run28 / Run25 / Run11。
+训练集: 其余 eligible runs。
+CUDA/设备信息:
+  Device: cuda
+  Torch version: 2.7.0+cu128
+  CUDA available: True
+  CUDA device index: 0
+  CUDA device name: NVIDIA GeForce RTX 5070 Ti
+  CUDA capability: 12.0
+  CUDA total memory (GB): 15.92

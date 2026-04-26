@@ -1,0 +1,5 @@
+实验方案
+========================================================================
+目的: 将最终增强 Transformer 与五个原始基准模型做横向比较，判断最终模型是否取得最优寿命预测表现。
+比较对象: FNN / GRU / LSTM / 1D-CNN / Transformer baseline / Transformer_R1+slow。
+注意: baseline Transformer 与 Transformer_R1+slow 共享同一默认 Transformer 结构参数，差异只来自 R1 特征与 slow_only 趋势约束。

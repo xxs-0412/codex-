@@ -1,0 +1,46 @@
+Transformer 双模块递进增强筛查结论
+========================================================================
+
+一、筛查口径
+------------------------------------------------------------------------
+训练使用原始仿真采样点；闭环预测和磨损积分固定 actual_step=250。
+Transformer 四版本：T0_baseline_5d / T1_R1_only / T2_slow_only_5d / T3_R1_plus_slow。
+测试集必须四个 D 型号各一个，并对 (F, Cr) 重复、粗步长和极端寿命进行降权。
+
+二、Stage1 粗筛概况
+------------------------------------------------------------------------
+Stage1 已记录候选数：16。
+Run4_Run30_Run8_Run11: runs=Run4;Run30;Run8;Run11, T0=688, T1=821, T2=585, T3=365, pass=1, penalty=0
+Run4_Run28_Run8_Run11: runs=Run4;Run28;Run8;Run11, T0=1757, T1=997, T2=807, T3=600, pass=1, penalty=0
+Run4_Run30_Run25_Run11: runs=Run4;Run30;Run25;Run11, T0=923, T1=582, T2=657, T3=603, pass=1, penalty=0
+Run4_Run28_Run25_Run11: runs=Run4;Run28;Run25;Run11, T0=1406, T1=1071, T2=1152, T3=670, pass=1, penalty=0
+Run4_Run28_Run24_Run11: runs=Run4;Run28;Run24;Run11, T0=1135, T1=1041, T2=722, T3=682, pass=1, penalty=0
+Run4_Run28_Run24_Run22: runs=Run4;Run28;Run24;Run22, T0=1127, T1=956, T2=1000, T3=690, pass=1, penalty=1
+Run4_Run30_Run8_Run22: runs=Run4;Run30;Run8;Run22, T0=2054, T1=1349, T2=1329, T3=928, pass=1, penalty=1
+Run4_Run28_Run8_Run22: runs=Run4;Run28;Run8;Run22, T0=2643, T1=1855, T2=1603, T3=1279, pass=1, penalty=1
+Run4_Run30_Run24_Run22: runs=Run4;Run30;Run24;Run22, T0=706, T1=516, T2=749, T3=416, pass=1, penalty=6
+Run4_Run28_Run25_Run18: runs=Run4;Run28;Run25;Run18, T0=893, T1=898, T2=556, T3=795, pass=0, penalty=0
+
+三、Stage2 五模型中筛
+------------------------------------------------------------------------
+Run4_Run28_Run25_Run11: runs=Run4;Run28;Run25;Run11, baseline_T_rank=2, T3_rank=1, T3_error=457, best=Transformer/T3_R1_plus_slow, penalty=0
+Run4_Run30_Run25_Run11: runs=Run4;Run30;Run25;Run11, baseline_T_rank=2, T3_rank=1, T3_error=508, best=Transformer/T3_R1_plus_slow, penalty=0
+Run4_Run30_Run8_Run11: runs=Run4;Run30;Run8;Run11, baseline_T_rank=4, T3_rank=2, T3_error=847, best=LSTM/T0_baseline_5d, penalty=0
+Run4_Run28_Run24_Run11: runs=Run4;Run28;Run24;Run11, baseline_T_rank=3, T3_rank=3, T3_error=1003, best=GRU/T0_baseline_5d, penalty=0
+Run4_Run28_Run24_Run22: runs=Run4;Run28;Run24;Run22, baseline_T_rank=3, T3_rank=1, T3_error=446, best=Transformer/T3_R1_plus_slow, penalty=1
+Run4_Run30_Run8_Run22: runs=Run4;Run30;Run8;Run22, baseline_T_rank=3, T3_rank=1, T3_error=575, best=Transformer/T3_R1_plus_slow, penalty=1
+Run4_Run28_Run8_Run11: runs=Run4;Run28;Run8;Run11, baseline_T_rank=1, T3_rank=2, T3_error=742, best=Transformer/T0_baseline_5d, penalty=0
+Run4_Run28_Run8_Run22: runs=Run4;Run28;Run8;Run22, baseline_T_rank=5, T3_rank=2, T3_error=1006, best=LSTM/T0_baseline_5d, penalty=1
+
+四、Stage3 正式复核
+------------------------------------------------------------------------
+Run4_Run28_Run25_Run11 seed=20260420: runs=Run4;Run28;Run25;Run11, T0=1406, T1=1113, T2=1027, T3=517, T3_rank=1, best=Transformer/T3_R1_plus_slow, formal_pass=1
+Run4_Run30_Run8_Run11 seed=20260420: runs=Run4;Run30;Run8;Run11, T0=1214, T1=772, T2=911, T3=761, T3_rank=1, best=Transformer/T3_R1_plus_slow, formal_pass=1
+Run4_Run28_Run25_Run11 seed=20260419: runs=Run4;Run28;Run25;Run11, T0=862, T1=783, T2=902, T3=816, T3_rank=1, best=Transformer/T3_R1_plus_slow, formal_pass=0
+Run4_Run30_Run25_Run11 seed=20260420: runs=Run4;Run30;Run25;Run11, T0=943, T1=772, T2=477, T3=728, T3_rank=2, best=LSTM/T0_baseline_5d, formal_pass=0
+Run4_Run30_Run8_Run11 seed=20260419: runs=Run4;Run30;Run8;Run11, T0=1674, T1=704, T2=350, T3=1028, T3_rank=3, best=GRU/T0_baseline_5d, formal_pass=0
+Run4_Run30_Run25_Run11 seed=20260419: runs=Run4;Run30;Run25;Run11, T0=490, T1=965, T2=452, T3=756, T3_rank=4, best=Transformer/T0_baseline_5d, formal_pass=0
+
+五、使用建议
+------------------------------------------------------------------------
+优先选择 formal_pass=1 且 explainability_penalty 低的候选。若没有 formal_pass=1，则选择 T3_rank 靠前、T3 明显优于 T0、且测试集参数最容易解释的候选作为备选。

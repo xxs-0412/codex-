@@ -1,0 +1,9 @@
+结果说明与分析
+========================================================================
+排序:
+1. Enhanced Transformer: mean_life_abs_error=3047.9, std=0.0, max=7677.1, delta_vs_baseline=-5540.0
+2. Transformer: mean_life_abs_error=3145.4, std=0.0, max=5076.6, delta_vs_baseline=-5442.5
+3. 1D-CNN: mean_life_abs_error=5759.4, std=0.0, max=12767.9, delta_vs_baseline=-2828.5
+4. FNN: mean_life_abs_error=8587.9, std=0.0, max=25402.9, delta_vs_baseline=0.0
+5. GRU: mean_life_abs_error=14117.7, std=0.0, max=40273.7, delta_vs_baseline=5529.7
+6. LSTM: mean_life_abs_error=15408.0, std=0.0, max=41426.6, delta_vs_baseline=6820.0

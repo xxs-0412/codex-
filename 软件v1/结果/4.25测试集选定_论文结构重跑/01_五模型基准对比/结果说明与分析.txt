@@ -1,0 +1,8 @@
+结果说明与分析
+========================================================================
+排序:
+1. LSTM: mean_life_abs_error=892.8, std=406.3, max=2571.1, delta_vs_baseline=-792.0
+2. GRU: mean_life_abs_error=1204.3, std=221.0, max=3733.2, delta_vs_baseline=-480.5
+3. Transformer: mean_life_abs_error=1295.2, std=91.6, max=3742.0, delta_vs_baseline=-389.5
+4. 1D-CNN: mean_life_abs_error=1614.3, std=578.0, max=6758.5, delta_vs_baseline=-70.4
+5. FNN: mean_life_abs_error=1684.8, std=474.7, max=4664.4, delta_vs_baseline=0.0

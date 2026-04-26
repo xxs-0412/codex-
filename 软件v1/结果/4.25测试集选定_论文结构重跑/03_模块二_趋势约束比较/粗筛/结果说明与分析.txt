@@ -1,0 +1,17 @@
+结果说明与分析
+========================================================================
+排序:
+1. M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p003: mean_life_abs_error=312.6, std=85.2, max=780.0, delta_vs_baseline=-488.2
+2. M1_R2_log_cycle_replace__S1_slow_abs_0p01: mean_life_abs_error=315.9, std=175.5, max=692.7, delta_vs_baseline=-484.9
+3. M1_R2_log_cycle_replace__S1_slow_abs_0p003: mean_life_abs_error=317.2, std=82.9, max=809.5, delta_vs_baseline=-483.5
+4. M1_R2_log_cycle_replace__S1_slow_abs_0p03: mean_life_abs_error=367.0, std=79.5, max=694.6, delta_vs_baseline=-433.7
+5. M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p01: mean_life_abs_error=373.2, std=207.9, max=824.1, delta_vs_baseline=-427.5
+6. M1_R3_log_cycle_keep__S1_slow_abs_0p03: mean_life_abs_error=390.0, std=59.9, max=1033.1, delta_vs_baseline=-410.8
+7. M1_R2_log_cycle_replace__S2_temporal_mono_plus_slow_abs_0p03: mean_life_abs_error=402.9, std=108.4, max=768.6, delta_vs_baseline=-397.9
+8. M1_R3_log_cycle_keep__S1_slow_abs_0p01: mean_life_abs_error=435.1, std=30.3, max=1269.9, delta_vs_baseline=-365.6
+9. M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p01: mean_life_abs_error=454.4, std=44.0, max=1295.6, delta_vs_baseline=-346.3
+10. M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p03: mean_life_abs_error=475.8, std=60.5, max=965.7, delta_vs_baseline=-325.0
+11. M1_R3_log_cycle_keep__S2_temporal_mono_plus_slow_abs_0p003: mean_life_abs_error=516.0, std=16.0, max=1442.6, delta_vs_baseline=-284.7
+12. M1_R3_log_cycle_keep__S1_slow_abs_0p003: mean_life_abs_error=523.7, std=6.9, max=1353.4, delta_vs_baseline=-277.1
+13. M1_R2_log_cycle_replace__S0_no_shape_loss: mean_life_abs_error=764.0, std=61.7, max=1199.4, delta_vs_baseline=-36.7
+14. M1_R3_log_cycle_keep__S0_no_shape_loss: mean_life_abs_error=800.8, std=425.0, max=2212.3, delta_vs_baseline=0.0
